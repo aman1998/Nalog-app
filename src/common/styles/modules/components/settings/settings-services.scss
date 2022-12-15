@@ -1,0 +1,47 @@
+.settings-services-card {
+  max-width: 476px;
+  padding: 8px 8px 8px 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+
+  &.connected {
+    background: $gray-light;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 6px;
+  }
+  &__container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+  }
+  &__description {
+    max-width: 342px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: $gray-8;
+  }
+  &__state {
+    padding: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    background: $gray-2;
+    border-radius: 4px;
+    color: $main;
+    border: none;
+    cursor: pointer;
+
+    &.connected {
+      color: $green-3
+    }
+  }
+}

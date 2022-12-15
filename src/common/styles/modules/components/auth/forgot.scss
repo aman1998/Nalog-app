@@ -1,0 +1,23 @@
+.sign-forgot {
+  &_reset {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 384px;
+    .label {
+      align-items: flex-start;
+      margin-bottom: 8px;
+      width: 100%;
+    }
+    .sign-form_input {
+      width: 100%;
+    }
+    .sign-form_btn {
+      margin-top: 40px;
+      width: 100%;
+    }
+    .sign-validate {
+      width: 100%;
+    }
+  }
+}

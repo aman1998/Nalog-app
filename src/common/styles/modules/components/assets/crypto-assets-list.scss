@@ -1,0 +1,80 @@
+.crypto-assets-list {
+  &:not(:first-child) {
+    margin-top: 24px;
+  }
+  width: 482px;
+
+  &_title {
+    margin-left: 12px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray-8;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &_transactions {
+    font-weight: 400;
+    margin-right: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    color: $main;
+    &:hover {
+      color: $blue-2;
+    }
+    &.underline {
+      text-decoration-line: underline;
+    }
+
+  }
+
+  &_items {
+    & > div {
+      border-bottom: 1px solid $gray-3;
+    }
+    & div:last-child {
+      border-bottom: none;
+    }
+  }
+  &__show-more {
+    padding: 11px;
+    width: 100%;
+
+    background: $gray-1;
+    cursor: pointer;
+    color: $main;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    border: none;
+    border-top: 1px solid $gray-3;
+    border-radius: 0 0 8px 8px;
+    &:hover {
+      background: $gray-light;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: $max-lg-media) {
+  .crypto-assets-list {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: $max-sm-media) {
+  .crypto-assets-list {
+    &_title {
+      margin-left: 5px;
+      margin-bottom: 8px;
+    }
+    &_transactions {
+      margin-right: 0;
+    }
+  }
+}

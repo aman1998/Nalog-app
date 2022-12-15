@@ -1,0 +1,46 @@
+.footer-wrapper {
+  background: $gray-light;
+}
+
+.footer {
+  margin-top: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //margin-top: 68px;
+  height: 80px;
+  flex: 0 0 auto;
+  &-logo {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: $gray-7;
+    svg {
+      path {
+        fill: $gray-8;
+      }
+    }
+  }
+  &-navigation {
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        margin-right: 40px;
+        color: $gray-7;
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+  &-end {
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 6px;
+      color: $gray-8;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.settings {
+  display: flex;
+  &_title {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  &-content {
+    min-height: 500px;
+    margin-top: -24px; // временное решение
+    margin-left: 24px;
+    padding: 40px 40px 32px 40px;
+    width: 100%;
+    max-width: 690px;
+    background: $gray-1;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  &__item {
+    &:not(:last-child) {
+      border-bottom: 1px solid $gray-4;
+    }
+    padding-top: 40px;
+    padding-bottom: 24px;
+
+    &__row:not(:first-child) {
+      margin-top: 24px;
+    }
+    .item-title {
+      margin-bottom: 24px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+    }
+    .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+      height: 40px;
+    }
+    .ant-select-single.ant-select-show-arrow .ant-select-selection-item,
+    .ant-select-selection-search,
+    .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+      padding-top: 4px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.settings-sidebar {
+  position: sticky;
+  top: 20px;
+  &_title {
+    margin-bottom: 32px;
+    color: $gray-9;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  &_navigation {
+    ul {
+      width: 282px;
+      border-right: 1px solid $gray-4;
+    }
+    .settings-item {
+      .link {
+        display: flex;
+        align-items: center;
+        padding: 12px 26px;
+        margin-bottom: 24px;
+        width: 100%;
+        background: rgba(255, 255, 255, 1e-5);
+        font-size: 18px;
+        line-height: 22px;
+        color: $gray-9;
+        svg {
+          width: 24px;
+          height: 24px;
+          margin-right: 18px;
+          path {
+            fill: $gray-9;
+          }
+        }
+      }
+      .active-link {
+        background: $gray-2;
+        color: $main;
+        border-right: 3px solid $main;
+        border-radius: 2px;
+        svg path {
+          fill: $main;
+        }
+      }
+    }
+  }
+}

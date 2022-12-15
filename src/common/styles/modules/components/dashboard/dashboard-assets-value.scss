@@ -1,0 +1,173 @@
+.dashboard-assets-value {
+  height: 582px;
+  width: 792px;
+  & .dashboard-card__content {
+    padding: 0 32px 45px 24px;
+  }
+  &__line-chart {
+    width: auto;
+    height: 300px;
+    .highcharts-credits {
+      display: none;
+    }
+  }
+  &__headed {
+    display: flex;
+    flex-direction: column;
+  }
+  &__filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    &__tabs {
+      margin-left: 24px;
+      display: flex;
+      flex-direction: row;
+    }
+    &__tab {
+      padding: 2px 12px;
+      font-size: 12px;
+      line-height: 24px;
+      background: #F3F4F9;
+      border-radius: 4px;
+      cursor: pointer;
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+      &.active {
+        color: $gray-1;
+        background: $main;
+      }
+    }
+  }
+  &__scoreboard {
+    margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    &__item {
+      position: relative;
+      padding-left: 24px;
+      display: flex;
+      flex-direction: column;
+      &:not(:first-child) {
+        &:before {
+          content: "";
+          position: absolute;
+          text-align: center;
+          top: 11px;
+          left: 0;
+          width: 1px;
+          height: 32px;
+          border-right: 1px solid $gray-5;
+        }
+      }
+      &__header {
+        display: flex;
+        align-items: inherit;
+        svg {
+          cursor: pointer;
+          width: 12px;
+          height: 12px;
+          path {
+            fill: $gray-6;
+          }
+        }
+      }
+      &__title {
+        margin-right: 4px;
+        font-size: 14px;
+        line-height: 22px;
+        color: $gray-8;
+      }
+      &__content {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        &.green {
+          color: $green-3;
+        }
+        &.red {
+          color: $red-6;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: $max-sm-media) {
+  .dashboard-assets-value {
+    width: 100%;
+    & .dashboard-card__content {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 0;
+    }
+    &__filters {
+      margin: 16px 16px 8px 16px;
+      &__tabs {
+        margin-left: 0;
+      }
+    }
+    &__line-chart {
+      width: auto;
+      height: auto;
+      .highcharts-credits {
+        display: none;
+      }
+    }
+    &__scoreboard {
+      width: auto;
+      margin: 16px;
+      margin-top: 0;
+      flex-direction: column;
+      &__item {
+        &:not(:first-child) {
+          border-top: 1px solid $gray-3;
+          &:before {
+            content: none;
+          }
+        }
+        width: 100%;
+        padding: 8px 0 6px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        &__content {
+          font-size: 14px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $md-xs-media) {
+  .dashboard-assets-value {
+    &__filters {
+      &__tabs {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      &__tab {
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+      }
+
+    }
+  }
+}
+
+//.dashboard-assets-value__line-chart {
+//  background- image:url(https://www.highcharts.com/samples/graphics/skies.jpg);
+//  background-size:cover;
+//  background-position: 0% -32px;
+//  background-repeat: no-repeat;
+//  background-size: contain;
+//}

@@ -1,0 +1,706 @@
+.transactions-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 8px;
+
+  &__main {
+    width: 100%;
+    height: 114px;
+    background: $gray-1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 15px 0 13px 24px;
+    border: 1px solid $gray-4;
+  }
+  &.isContinuation {
+    .transactions-item__main {
+      border-top-left-radius: 0 !important;
+      border-top-right-radius: 0 !important;
+    }
+  }
+  &.hasContinuation {
+    .transactions-item__main {
+      border-bottom-left-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+    }
+  }
+  &:first-child {
+    .transactions-item__main {
+      border-top-left-radius: 24px;
+      border-top: 1px solid $gray-4;
+    }
+  }
+  &:last-child {
+    margin-bottom: 0;
+    .transactions-item__main {
+      border-bottom-left-radius: 24px;
+    }
+  }
+  &:only-child {
+    margin-bottom: 0;
+    .transactions-item__main {
+      border-radius: 24px 0 0 24px;
+    }
+  }
+  &__additional-info {
+    width: 212px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &__btns {
+      &__tag {
+        background: $gray-4;
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        span {
+          font-weight: 400;
+          font-size: 10px;
+          line-height: 12px;
+          color: $main;
+          width: 24px;
+        }
+      }
+    }
+  }
+  &__dropdown-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  &__dropdown {
+    &-menu {
+      padding: 16px 0 20px 0;
+      width: 216px;
+      background: $gray-1;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+      border-radius: 0 0 8px 8px;
+      :hover {
+        color: $main;
+      }
+      &-item {
+        position: relative;
+        padding: 5px 24px;
+        font-size: 14px;
+        line-height: 16px;
+        color: $gray-9;
+        height: 32px;
+        span {
+          padding-left: 16px;
+        }
+        svg {
+          position: absolute;
+          right: 15px;
+          color: $main;
+        }
+      }
+    }
+    &-name, &-name:hover {
+      font-size: 16px;
+      line-height: 24px;
+      color: $blue-3;
+      text-decoration: underline;
+      &.red {
+        color: $red-6;
+      }
+    }
+    &-arrow {
+      margin-left: 7px;
+      margin-bottom: 2px;
+      border: solid $blue-3;
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 2px;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      &.red {
+        @include Transition;
+        border-color: $red-6;
+        &:hover {
+          color: $red-4;
+        }
+      }
+    }
+    svg {
+      margin-left: 5px;
+      width: 12px;
+      height: 12px;
+      transform: rotate(-90deg);
+      -webkit-transform: rotate(-90deg);
+      path {
+        fill: $blue-3;
+      }
+    }
+  }
+  &-left {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    min-width: 232px;
+    width: 232px;
+    &__icon {
+      display: flex;
+      align-items: center;
+      width: 36px;
+      height: 36px;
+      svg {
+        width: 36px;
+        height: 36px;
+        margin: auto;
+      }
+    }
+    .isWidthdrawalIcon {
+      transform: rotate(180deg);
+      z-index: 1;
+    }
+    .needDetailsIcon {
+      svg {
+        margin: 0 auto;
+      }
+    }
+    &__info {
+      margin-left: 24px;
+      &-name {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 5px;
+        color: $gray-9;
+        &.action {
+          cursor: pointer;
+          @include Transition;
+          text-decoration-line: underline;
+          color: $main;
+          &:hover {
+            color: $blue-2;
+          }
+        }
+        &.red {
+          cursor: pointer;
+          text-decoration-line: underline;
+          color: $red-6;
+          &:hover {
+            color: $red-4;
+          }
+        }
+      }
+      &-sub-name {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: $gray-7;
+      }
+      &-date {
+        font-size: 14px;
+        line-height: 18px;
+        color: $gray-7;
+      }
+    }
+  }
+  &-right {
+    margin: 0 0 0 20px;
+    min-width: 135px;
+    width: 180px;
+    display: flex;
+    justify-content: flex-end;
+    &__menu {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+      border-radius: 0 0 8px 8px;
+      li {
+        width: 216px;
+        padding: 10px 8px 10px 24px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+      }
+      &_delete {
+        &:hover {
+          color: $red-6;
+        }
+      }
+    }
+
+    .additional-info {
+      margin-bottom: 2px;
+      cursor: pointer;
+      color: $red-6;
+      text-decoration-line: underline;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .fee {
+      font-size: 14px;
+      line-height: 18px;
+      color: $gray-7;
+    }
+    .profit {
+      display: none; // Remove when the gain will be calculated
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: $gray-9;
+      span {
+        color: $green-3;
+      }
+    }
+    &__content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+    &__dropdown {
+      position: absolute;
+      top: -1px;
+      right: -1px;
+      z-index: 2;
+    }
+  }
+  &-center {
+    display: flex;
+    align-items: center;
+    .externalOperation {
+      padding: 6px 8px 0 12px;
+      background: $gray-3;
+      border-radius: 4px;
+      .transactions-item-center__operation__content__left {
+        margin-top: 5px;
+        &.long {
+          margin-top: 0;
+        }
+      }
+      .transactions-item-center__operation__title {
+        margin-bottom: 2px;
+        font-size: 12px;
+        line-height: 18px;
+      }
+      .transactions-item-center__operation__name {
+        width: 138px;
+        font-size: 14px;
+        line-height: 17px;
+        color: $gray-8;
+      }
+      .transactions-item-center__operation__msg {
+        div {
+          @include Ellipsis;
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .transactions-item-center__operation__header {
+        margin-bottom: 2px;
+      }
+    }
+    .marginTrading {
+      border-radius: 4px;
+      border: 1px solid $gray-4;
+      padding: 0;
+    }
+    .needInfoOperation {
+      background: $red-1;
+      @include Transition;
+      &:hover {
+        background: $red-1-hover;
+      }
+    }
+    .isErrorCost {
+      .transactions-item-center__operation__msg {
+        color: $red-5;
+      }
+    }
+    &__arrow {
+      width: 16px;
+      height: 16px;
+      margin: 0 24px 0 16px;
+      transform: rotate(-90deg);
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    &__operation {
+      position: relative;
+      width: 230px;
+      height: 86px;
+      text-align: left;
+      &.clickable {
+        cursor: pointer;
+      }
+
+      &__content {
+        display: flex;
+        flex-direction: row;
+        &__left {
+          margin-top: 4px;
+          display: flex;
+          flex-direction: column;
+          &.long {
+            margin-top: 0;
+          }
+        }
+      }
+      &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        height: 18px;
+      }
+      &__title {
+        height: 100%;
+        font-size: 14px;
+        line-height: 18px;
+        color: $gray-7;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      &__btns {
+        &-item {
+          margin-bottom: 8px;
+          cursor: pointer;
+          width: 16px;
+          height: 16px;
+          svg {
+            @include FlexCenter;
+            width: 14px;
+            height: 14px;
+          }
+        }
+        .transactionFileBtnRed svg path {
+          fill: $red-6;
+        }
+        .transactionFileBtnGray svg path {
+          fill: $gray-6;
+        }
+        .transactionFileBtnGreen svg path {
+          fill: $green-3;
+        }
+        .transactionEditBtnBlue svg path {
+          fill: $main;
+        }
+        .transactionEditBtnRed svg path {
+          fill: $red-6;
+        }
+      }
+      &__logo {
+        margin-right: 8px;
+      }
+      &__name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray-9;
+        &.fiat {
+          font-size: 14px;
+          line-height: 22px;
+          color: $gray-7;
+        }
+        &.isLoss {
+          color: $red-6;
+        }
+      }
+      &__msg {
+        margin-top: 6px;
+        cursor: pointer;
+        div {
+          width: 172px;
+          @include Ellipsis;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 18px;
+          color: $gray-7;
+        }
+        .fiat {
+          color: $gray-7;
+        }
+        .error {
+          color: $red-6;
+        }
+        .classify {
+          width: 90px;
+        }
+
+      }
+    }
+    &__margin-trading {
+      &__header {
+        display: flex;
+        justify-content: space-between;
+        height: 28px;
+      }
+      &__symbol {
+        background: linear-gradient(30deg, #9BEEBC 0%, #A7FFCD 73.21%);
+        border-radius: 3px 0;
+        display: flex;
+        flex-direction: row;
+        padding: 6px 8px;
+        align-items: center;
+        &.short {
+          background: $complementary;
+          span {
+            color: $gray-1;
+          }
+        }
+        img {
+          margin-right: 8px;
+          height: 16px;
+          width: 16px;
+        }
+        span {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          color: $gray-9;
+        }
+      }
+      &__title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 6px 8px 0 0;
+        color: $gray-7;
+      }
+      &__content {
+        padding: 8px 0 6px 18px;
+      }
+      &__position {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: $gray-7;
+        span {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: $gray-9;
+        }
+      }
+      &__price {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: $gray-7;
+        span {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+        }
+        svg {
+          margin: 0 3px;
+          width: 10px;
+          height: 10px;
+          transform: rotate(-90deg);
+        }
+        &.negativePosition {
+          span {
+            color: $red-6;
+          }
+          svg {
+            path {
+              fill: $red-6;
+            }
+          }
+        }
+        &.positivePosition {
+          span {
+            color: $green-1;
+          }
+
+          svg {
+            path {
+              fill: $green-1;
+            }
+          }
+        }
+      }
+      &__classify {
+        position: absolute;
+        bottom: 6px;
+        right: 4px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        color: $red-6;
+        @include Transition;
+        & .vector {
+          width: 16px;
+          height: 16px;
+          fill: $red-6;
+          transform: rotate(180deg);
+          path {
+            @include Transition;
+            fill: $red-6;
+          }
+        }
+
+        &:hover {
+          color: $red-4;
+          & .vector {
+            path {
+              fill: $red-4;
+            }
+          }
+        }
+
+      }
+    }
+    &__margin-trading-opened {
+      &__content {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        position: absolute;
+        justify-content: normal;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      &__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray-8;
+        margin-bottom: 6px
+      }
+      &__asset {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: $gray-7;
+      }
+    }
+  }
+  &-vector {
+    margin-top: 12px;
+    margin-left: auto;
+  }
+  &__checkbox {
+    margin-right: 16px;
+    width: 16px;
+    height: 16px;
+  }
+  &__add-note {
+    width: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__btn {
+      &__wrapper {
+        opacity: 0;
+        width: 148px;
+        height: 74px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include Transition;
+        &:hover {
+          opacity: 1;
+        }
+      }
+      border-radius: 40px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 144%;
+      color: $gray-9;
+    }
+  }
+  &__tags {
+    width: 188px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__tag {
+    margin-right: 8px;
+    margin-top: 8px;
+    padding: 2px 8px;
+    background: $gray-3;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144%;
+    color: $main;
+    cursor: pointer;
+    &.rest-count {
+      cursor: pointer;
+    }
+    &.too-large {
+
+      @include Ellipsis;
+    }
+  }
+  &.dashboard-transaction {
+    margin-bottom: 0;
+    border-bottom: none;
+
+    .transactions-item__main {
+      border: none;
+      border-right: 1px solid $gray-4;
+      border-top: 1px solid $gray-4;
+    }
+    &:first-child {
+      .transactions-item__main {
+        border-top: none;
+        border-top-left-radius: 0;
+        //border-top: 1px solid $gray-5;
+      }
+    }
+    &:last-child {
+      margin-bottom: 0;
+      .transactions-item__main {
+        border-bottom-left-radius: 0;
+      }
+    }
+    &:only-child {
+      margin-bottom: 0;
+      .transactions-item__main {
+        border-radius: 0;
+      }
+    }
+  }
+}
+
+.transactionsItemNeedDetails {
+  padding: 14px 20px 12px 32px;
+  border-top: 1px solid $info-block-deadline !important;
+  border-bottom: 1px solid $info-block-deadline;
+  border-left: 8px solid $info-block-deadline;
+  border-right: 8px solid $info-block-deadline;
+}
+
+.reportTransactionsItemNeedDetails {
+  padding: 14px 28px 12px 5px;
+  background: $gray-1;
+  border-top: 1px solid $red-6 !important;
+  border-bottom: 1px solid $red-6;
+  border-left: 8px solid $red-6;
+  border-right: 8px solid $red-6;
+}
+
+.transactionsItemWidthCheckbox {
+  padding: 14px 28px 12px 13px;
+  mix-blend-mode: multiply;
+  background: $gray-light;
+  opacity: 0.6;
+  //box-shadow: 0 1.5px 2px rgba(0, 0, 0, 0.06);
+}
+
+.transactionsChecked {
+  background: rgba(63, 134, 226, 0.1);
+  opacity: 1;
+}
+
+.reportTransactionsItemNeedDetailsChecked {
+  background: $red-1;
+  opacity: 1;
+  .needInfoOperation {
+    background: #fbe4e2;
+  }
+}

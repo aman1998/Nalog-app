@@ -1,0 +1,44 @@
+.dashboard-welcome-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px 26px 32px 26px;
+  align-items: center;
+  &__wrapper {
+    .ant-modal-close {
+      top: 17px
+    }
+  }
+  &__data {
+    margin: 40px 0;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: $gray-9;
+  }
+  &__handshake {
+    font-size: 30px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: $gray-7;
+  }
+
+  &__start {
+    width: 180px;
+    height: 32px;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

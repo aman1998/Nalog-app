@@ -1,0 +1,2378 @@
+[
+  {
+    "en": "Africa/Abidjan",
+    "ru": "Африка/Абиджан"
+  },
+  {
+    "en": "Africa/Accra",
+    "ru": "Африка/Аккра"
+  },
+  {
+    "en": "Africa/Addis_Ababa",
+    "ru": "Африка/Аддис-Абеба"
+  },
+  {
+    "en": "Africa/Algiers",
+    "ru": "Африка/Алжир"
+  },
+  {
+    "en": "Africa/Asmara",
+    "ru": "Африка/Асмара"
+  },
+  {
+    "en": "Africa/Asmera",
+    "ru": "Африка/Асмера"
+  },
+  {
+    "en": "Africa/Bamako",
+    "ru": "Африка/Бамакоба"
+  },
+  {
+    "en": "Africa/Bangui",
+    "ru": "Африка/Банги"
+  },
+  {
+    "en": "Africa/Banjul",
+    "ru": "Африка/Банджулу"
+  },
+  {
+    "en": "Africa/Bissau",
+    "ru": "Африка/Бисау"
+  },
+  {
+    "en": "Africa/Blantyre",
+    "ru": "Африка/Блантайр"
+  },
+  {
+    "en": "Africa/Brazzaville",
+    "ru": "Африка/Брамзавиль"
+  },
+  {
+    "en": "Africa/Bujumbura",
+    "ru": "Африка/Буюмбура"
+  },
+  {
+    "en": "Africa/Cairo",
+    "ru": "Африка/Каир"
+  },
+  {
+    "en": "Africa/Casablanca",
+    "ru": "Африка/Касабланка"
+  },
+  {
+    "en": "Africa/Ceuta",
+    "ru": "Африка/Сеута"
+  },
+  {
+    "en": "Africa/Conakry",
+    "ru": "Африка/Конакри"
+  },
+  {
+    "en": "Africa/Dakar",
+    "ru": "Африка/Дакар"
+  },
+  {
+    "en": "Africa/Dar_es_Salaam",
+    "ru": "Африка/Дар-эс-Салам"
+  },
+  {
+    "en": "Africa/Djibouti",
+    "ru": "Африка/Джибути"
+  },
+  {
+    "en": "Africa/Douala",
+    "ru": "Африка/Дуала"
+  },
+  {
+    "en": "Africa/El_Aaiun",
+    "ru": "Африка/Эль-Аайун"
+  },
+  {
+    "en": "Africa/Freetown",
+    "ru": "Африка/Фритаун"
+  },
+  {
+    "en": "Africa/Gaborone",
+    "ru": "Африка/Габороне"
+  },
+  {
+    "en": "Africa/Harare",
+    "ru": "Африка/Хараре"
+  },
+  {
+    "en": "Africa/Johannesburg",
+    "ru": "Африка/Йоханнесбург"
+  },
+  {
+    "en": "Africa/Juba",
+    "ru": "Африка/Джуба"
+  },
+  {
+    "en": "Africa/Kampala",
+    "ru": "Африка/Кампала"
+  },
+  {
+    "en": "Africa/Khartoum",
+    "ru": "Африка/Хартум"
+  },
+  {
+    "en": "Africa/Kigali",
+    "ru": "Африка/Кинали"
+  },
+  {
+    "en": "Africa/Kinshasa",
+    "ru": "Африка/Киншаса"
+  },
+  {
+    "en": "Africa/Lagos",
+    "ru": "Африка/Лагос"
+  },
+  {
+    "en": "Africa/Libreville",
+    "ru": "Африка/Либревиль"
+  },
+  {
+    "en": "Africa/Lome",
+    "ru": "Африка/Ломе"
+  },
+  {
+    "en": "Africa/Luanda",
+    "ru": "Африка/Луанда"
+  },
+  {
+    "en": "Africa/Lubumbashi",
+    "ru": "Африка/Лубумбаши"
+  },
+  {
+    "en": "Africa/Lusaka",
+    "ru": "Африка/Лусака"
+  },
+  {
+    "en": "Africa/Malabo",
+    "ru": "Африка/Малабо"
+  },
+  {
+    "en": "Africa/Maputo",
+    "ru": "Африка/Мапуту"
+  },
+  {
+    "en": "Africa/Maseru",
+    "ru": "Африка/Масару"
+  },
+  {
+    "en": "Africa/Mbabane",
+    "ru": "Африка/Мбабан"
+  },
+  {
+    "en": "Africa/Mogadishu",
+    "ru": "Африка/Могадишо"
+  },
+  {
+    "en": "Africa/Monrovia",
+    "ru": "Африка/Монровия"
+  },
+  {
+    "en": "Africa/Nairobi",
+    "ru": "Африка/Найроби"
+  },
+  {
+    "en": "Africa/Ndjamena",
+    "ru": "Африка/Нджаена"
+  },
+  {
+    "en": "Africa/Niamey",
+    "ru": "Африканский/Ниай"
+  },
+  {
+    "en": "Africa/Nouakchott",
+    "ru": "Африка/Нукчотт"
+  },
+  {
+    "en": "Africa/Ouagadougou",
+    "ru": "Африка/Уагадугу"
+  },
+  {
+    "en": "Africa/Porto-Novo",
+    "ru": "Африка/Порто-Ново"
+  },
+  {
+    "en": "Africa/Sao_Tome",
+    "ru": "Африка/Сан-Томе"
+  },
+  {
+    "en": "Africa/Timbuktu",
+    "ru": "Африка/Тимбукту"
+  },
+  {
+    "en": "Africa/Tripoli",
+    "ru": "Африка/Триполи"
+  },
+  {
+    "en": "Africa/Tunis",
+    "ru": "Африка/Тунис"
+  },
+  {
+    "en": "Africa/Windhoek",
+    "ru": "Африка/Виндхук"
+  },
+  {
+    "en": "America/Adak",
+    "ru": "Америка/Адак"
+  },
+  {
+    "en": "America/Anchorage",
+    "ru": "Америка/Анкоридж"
+  },
+  {
+    "en": "America/Anguilla",
+    "ru": "Америка/Ангилья"
+  },
+  {
+    "en": "America/Antigua",
+    "ru": "Америка/древняя"
+  },
+  {
+    "en": "America/Araguaina",
+    "ru": "Америка/Арагуайна"
+  },
+  {
+    "en": "America/Argentina/Buenos_Aires",
+    "ru": "Америка/Аргентина/Гуд Айрес"
+  },
+  {
+    "en": "America/Argentina/Catamarca",
+    "ru": "Америка/Аргентина/Катамарка"
+  },
+  {
+    "en": "America/Argentina/ComodRivadavia",
+    "ru": "Америка/Аргентина/Комодривадавия"
+  },
+  {
+    "en": "America/Argentina/Cordoba",
+    "ru": "Америка/Аргентина/Кордоба"
+  },
+  {
+    "en": "America/Argentina/Jujuy",
+    "ru": "Америка/Аргентина/Джуджуй"
+  },
+  {
+    "en": "America/Argentina/La_Rioja",
+    "ru": "Америка/Аргентина/Ла-Риоха"
+  },
+  {
+    "en": "America/Argentina/Mendoza",
+    "ru": "Америка/Аргентина/Мендоса"
+  },
+  {
+    "en": "America/Argentina/Rio_Gallegos",
+    "ru": "Америка/Аргентина/Рио-Гальегос"
+  },
+  {
+    "en": "America/Argentina/Salta",
+    "ru": "Америка/Аргентина/Сальта"
+  },
+  {
+    "en": "America/Argentina/San_Juan",
+    "ru": "Америка/Аргентина/Сан-Хуан"
+  },
+  {
+    "en": "America/Argentina/San_Luis",
+    "ru": "Америка/Аргентина/Сан-Луис"
+  },
+  {
+    "en": "America/Argentina/Tucuman",
+    "ru": "Америка/Аргентина/Тукуман"
+  },
+  {
+    "en": "America/Argentina/Ushuaia",
+    "ru": "Америка/Аргентина/Ушуая"
+  },
+  {
+    "en": "America/Aruba",
+    "ru": "Америка/Аруба"
+  },
+  {
+    "en": "America/Asuncion",
+    "ru": "Америка/Асунсьон"
+  },
+  {
+    "en": "America/Atikokan",
+    "ru": "Америка/Атикокан"
+  },
+  {
+    "en": "America/Atka",
+    "ru": "Америка/Атка"
+  },
+  {
+    "en": "America/Bahia",
+    "ru": "Америка/Баия"
+  },
+  {
+    "en": "America/Bahia_Banderas",
+    "ru": "Америка/Баия Бандерас"
+  },
+  {
+    "en": "America/Barbados",
+    "ru": "Америка/Барбадос"
+  },
+  {
+    "en": "America/Belem",
+    "ru": "Америка/Белм"
+  },
+  {
+    "en": "America/Belize",
+    "ru": "Америка/Белиз"
+  },
+  {
+    "en": "America/Blanc-Sablon",
+    "ru": "Америка/Блан-Саблон"
+  },
+  {
+    "en": "America/Boa_Vista",
+    "ru": "Америка/Боа-Виста"
+  },
+  {
+    "en": "America/Bogota",
+    "ru": "Америка/Богота"
+  },
+  {
+    "en": "America/Boise",
+    "ru": "Америка/Бойсе"
+  },
+  {
+    "en": "America/Buenos_Aires",
+    "ru": "Америка/Буэнос айрес"
+  },
+  {
+    "en": "America/Cambridge_Bay",
+    "ru": "Америка/Кембридж Бэй"
+  },
+  {
+    "en": "America/Campo_Grande",
+    "ru": "Америка/Кампо Гранде"
+  },
+  {
+    "en": "America/Cancun",
+    "ru": "Американец/Канкун"
+  },
+  {
+    "en": "America/Caracas",
+    "ru": "Америка/Каракас"
+  },
+  {
+    "en": "America/Catamarca",
+    "ru": "Америка/Катамарка"
+  },
+  {
+    "en": "America/Cayenne",
+    "ru": "Америка/Кайенн"
+  },
+  {
+    "en": "America/Cayman",
+    "ru": "Америка/Кайман"
+  },
+  {
+    "en": "America/Chicago",
+    "ru": "Америка/Чикаго"
+  },
+  {
+    "en": "America/Chihuahua",
+    "ru": "Америка/Чихуахуа"
+  },
+  {
+    "en": "America/Coral_Harbour",
+    "ru": "Америка/Корал Харбор"
+  },
+  {
+    "en": "America/Cordoba",
+    "ru": "Америка/Кордоба"
+  },
+  {
+    "en": "America/Costa_Rica",
+    "ru": "Америка/Коста-Рика"
+  },
+  {
+    "en": "America/Creston",
+    "ru": "Америка/Крестон"
+  },
+  {
+    "en": "America/Cuiaba",
+    "ru": "Америка/Куаба"
+  },
+  {
+    "en": "America/Curacao",
+    "ru": "Америка/Кюрасао"
+  },
+  {
+    "en": "America/Danmarkshavn",
+    "ru": "Америка/Данмарксхавн"
+  },
+  {
+    "en": "America/Dawson",
+    "ru": "Америка/Доусон"
+  },
+  {
+    "en": "America/Dawson_Creek",
+    "ru": "America/Доусон Крик"
+  },
+  {
+    "en": "America/Denver",
+    "ru": "Америка/Денвер"
+  },
+  {
+    "en": "America/Detroit",
+    "ru": "Америка/Детройт"
+  },
+  {
+    "en": "America/Dominica",
+    "ru": "Америка/Доминика"
+  },
+  {
+    "en": "America/Edmonton",
+    "ru": "Америка/Эдмонтон"
+  },
+  {
+    "en": "America/Eirunepe",
+    "ru": "Америка/Эйрунеп"
+  },
+  {
+    "en": "America/El_Salvador",
+    "ru": "Америка/Эль Сальвадор"
+  },
+  {
+    "en": "America/Ensenada",
+    "ru": "Америка/Энсенада"
+  },
+  {
+    "en": "America/Fort_Nelson",
+    "ru": "Америка/Форт Нельсон"
+  },
+  {
+    "en": "America/Fort_Wayne",
+    "ru": "Америка/Форт-Уэйн"
+  },
+  {
+    "en": "America/Fortaleza",
+    "ru": "Америка/Форталеза"
+  },
+  {
+    "en": "America/Glace_Bay",
+    "ru": "Америка/Ледяная бухта"
+  },
+  {
+    "en": "America/Godthab",
+    "ru": "Америка/Годтаб"
+  },
+  {
+    "en": "America/Goose_Bay",
+    "ru": "America/Гусиная бухта"
+  },
+  {
+    "en": "America/Grand_Turk",
+    "ru": "Америка/Grand_turk"
+  },
+  {
+    "en": "America/Grenada",
+    "ru": "Америка/Гренада"
+  },
+  {
+    "en": "America/Guadeloupe",
+    "ru": "Америка/Гваделупа"
+  },
+  {
+    "en": "America/Guatemala",
+    "ru": "Америка/Гватемала"
+  },
+  {
+    "en": "America/Guayaquil",
+    "ru": "Америка/Гуаякил"
+  },
+  {
+    "en": "America/Guyana",
+    "ru": "Америка/Гайана"
+  },
+  {
+    "en": "America/Halifax",
+    "ru": "Америка/Галифакс"
+  },
+  {
+    "en": "America/Havana",
+    "ru": "Америка/Гавана"
+  },
+  {
+    "en": "America/Hermosillo",
+    "ru": "Америка/Хермосильо"
+  },
+  {
+    "en": "America/Indiana/Indianapolis",
+    "ru": "Америка/Индиана/Индианаполис"
+  },
+  {
+    "en": "America/Indiana/Knox",
+    "ru": "Америка/Индиана/Нокс"
+  },
+  {
+    "en": "America/Indiana/Marengo",
+    "ru": "Америка/Индиана/Маренго"
+  },
+  {
+    "en": "America/Indiana/Petersburg",
+    "ru": "Америка/Индиана/Петербург"
+  },
+  {
+    "en": "America/Indiana/Tell_City",
+    "ru": "Америка/Индиана/город Телл"
+  },
+  {
+    "en": "America/Indiana/Vevay",
+    "ru": "Америка/Индиана/Вевей"
+  },
+  {
+    "en": "America/Indiana/Vincennes",
+    "ru": "Америка/Индиана/Винсеннс"
+  },
+  {
+    "en": "America/Indiana/Winamac",
+    "ru": "Америка/Индиана/Винамак"
+  },
+  {
+    "en": "America/Indianapolis",
+    "ru": "Америка/Индианаполис"
+  },
+  {
+    "en": "America/Inuvik",
+    "ru": "Америка/Инувик"
+  },
+  {
+    "en": "America/Iqaluit",
+    "ru": "Америка/Икалуит"
+  },
+  {
+    "en": "America/Jamaica",
+    "ru": "Америка/Ямайка"
+  },
+  {
+    "en": "America/Jujuy",
+    "ru": "Америка/Жужуй"
+  },
+  {
+    "en": "America/Juneau",
+    "ru": "Америка/Джуно"
+  },
+  {
+    "en": "America/Kentucky/Louisville",
+    "ru": "Америка/Кентукки/Луисвилл"
+  },
+  {
+    "en": "America/Kentucky/Monticello",
+    "ru": "Америка/Кентукки/Монтичелло"
+  },
+  {
+    "en": "America/Knox_IN",
+    "ru": "Америка/knox_in"
+  },
+  {
+    "en": "America/Kralendijk",
+    "ru": "Америка/Клендийк"
+  },
+  {
+    "en": "America/La_Paz",
+    "ru": "Америка/La_Paz"
+  },
+  {
+    "en": "America/Lima",
+    "ru": "Американец/Лима"
+  },
+  {
+    "en": "America/Los_Angeles",
+    "ru": "Америка/Лос-Анджелес"
+  },
+  {
+    "en": "America/Louisville",
+    "ru": "Америка/Луисвилл"
+  },
+  {
+    "en": "America/Lower_Princes",
+    "ru": "Америка/Нижний Принс"
+  },
+  {
+    "en": "America/Maceio",
+    "ru": "Америка/Мейсио"
+  },
+  {
+    "en": "America/Managua",
+    "ru": "Америка/Манюа"
+  },
+  {
+    "en": "America/Manaus",
+    "ru": "Америка/Манаус"
+  },
+  {
+    "en": "America/Marigot",
+    "ru": "Америка/Мариго"
+  },
+  {
+    "en": "America/Martinique",
+    "ru": "Америка/Мартиника"
+  },
+  {
+    "en": "America/Matamoros",
+    "ru": "Америка/Матаморос"
+  },
+  {
+    "en": "America/Mazatlan",
+    "ru": "Америка/Мазатлан"
+  },
+  {
+    "en": "America/Mendoza",
+    "ru": "Америка/Мендоса"
+  },
+  {
+    "en": "America/Menominee",
+    "ru": "Америка/Меномини"
+  },
+  {
+    "en": "America/Merida",
+    "ru": "Америка/Мерида"
+  },
+  {
+    "en": "America/Metlakatla",
+    "ru": "Америка/Солнфант"
+  },
+  {
+    "en": "America/Mexico_City",
+    "ru": "Америка/Мехико"
+  },
+  {
+    "en": "America/Miquelon",
+    "ru": "Америка/Микелон"
+  },
+  {
+    "en": "America/Moncton",
+    "ru": "Америка/Монктон"
+  },
+  {
+    "en": "America/Monterrey",
+    "ru": "Америка/Монтеррей"
+  },
+  {
+    "en": "America/Montevideo",
+    "ru": "Америка/Монтевидео"
+  },
+  {
+    "en": "America/Montreal",
+    "ru": "Америка/Монреаль"
+  },
+  {
+    "en": "America/Montserrat",
+    "ru": "Америка/Монтсеррат"
+  },
+  {
+    "en": "America/Nassau",
+    "ru": "Америка/Нассау"
+  },
+  {
+    "en": "America/New_York",
+    "ru": "Америка/Нью-Йорк"
+  },
+  {
+    "en": "America/Nipigon",
+    "ru": "Америка/Нипигон"
+  },
+  {
+    "en": "America/Nome",
+    "ru": "Америка/Имя"
+  },
+  {
+    "en": "America/Noronha",
+    "ru": "Америка/Норонха"
+  },
+  {
+    "en": "America/North_Dakota/Beulah",
+    "ru": "Америка/Северная_дакота/Беула"
+  },
+  {
+    "en": "America/North_Dakota/Center",
+    "ru": "Америка/Северная_дакота/Центр"
+  },
+  {
+    "en": "America/North_Dakota/New_Salem",
+    "ru": "America/North_dakota/Нью Салем"
+  },
+  {
+    "en": "America/Nuuk",
+    "ru": "Америка/Нук"
+  },
+  {
+    "en": "America/Ojinaga",
+    "ru": "Америка/Оджинага"
+  },
+  {
+    "en": "America/Panama",
+    "ru": "Америка/Панама"
+  },
+  {
+    "en": "America/Pangnirtung",
+    "ru": "Америка/Пангниртунг"
+  },
+  {
+    "en": "America/Paramaribo",
+    "ru": "Америка/Парамарибо"
+  },
+  {
+    "en": "America/Phoenix",
+    "ru": "Америка/Феникс"
+  },
+  {
+    "en": "America/Port_of_Spain",
+    "ru": "Америка/Порт-оф-Спейн"
+  },
+  {
+    "en": "America/Port-au-Prince",
+    "ru": "Америка/Порт-о-Пренс"
+  },
+  {
+    "en": "America/Porto_Acre",
+    "ru": "Америка/Порто Акко"
+  },
+  {
+    "en": "America/Porto_Velho",
+    "ru": "Америка/Порту-Велью"
+  },
+  {
+    "en": "America/Puerto_Rico",
+    "ru": "Америка/Пуэрто-Рико"
+  },
+  {
+    "en": "America/Punta_Arenas",
+    "ru": "Америка/Пунта-Аренас"
+  },
+  {
+    "en": "America/Rainy_River",
+    "ru": "Америка/Дождливая река"
+  },
+  {
+    "en": "America/Rankin_Inlet",
+    "ru": "Америка/Ранкин Инлет"
+  },
+  {
+    "en": "America/Recife",
+    "ru": "Америка/Резю"
+  },
+  {
+    "en": "America/Regina",
+    "ru": "Америка/Регина"
+  },
+  {
+    "en": "America/Resolute",
+    "ru": "Америка/Решительный"
+  },
+  {
+    "en": "America/Rio_Branco",
+    "ru": "Америка/Рио-Бранко"
+  },
+  {
+    "en": "America/Rosario",
+    "ru": "Америка/Росарио"
+  },
+  {
+    "en": "America/Santa_Isabel",
+    "ru": "Америка/Санта-Исабель"
+  },
+  {
+    "en": "America/Santarem",
+    "ru": "Америка/Сантарем"
+  },
+  {
+    "en": "America/Santiago",
+    "ru": "Америка/Сантьяго"
+  },
+  {
+    "en": "America/Santo_Domingo",
+    "ru": "Америка/Санто-Доминго"
+  },
+  {
+    "en": "America/Sao_Paulo",
+    "ru": "Америка/Сан-Паулу"
+  },
+  {
+    "en": "America/Scoresbysund",
+    "ru": "Америка/Скорсби"
+  },
+  {
+    "en": "America/Shiprock",
+    "ru": "Америка/Шипрок"
+  },
+  {
+    "en": "America/Sitka",
+    "ru": "Америка/Ситка"
+  },
+  {
+    "en": "America/St_Barthelemy",
+    "ru": "Америка/Сен-Бартельми"
+  },
+  {
+    "en": "America/St_Johns",
+    "ru": "Америка/Сент-Джонс"
+  },
+  {
+    "en": "America/St_Kitts",
+    "ru": "Америка/Сент-Китс"
+  },
+  {
+    "en": "America/St_Lucia",
+    "ru": "Америка/Сент-Люсия"
+  },
+  {
+    "en": "America/St_Thomas",
+    "ru": "Америка/Сент-Томас"
+  },
+  {
+    "en": "America/St_Vincent",
+    "ru": "Америка/Сент-Винсент"
+  },
+  {
+    "en": "America/Swift_Current",
+    "ru": "Америка/Свифт Керрент"
+  },
+  {
+    "en": "America/Tegucigalpa",
+    "ru": "Америка/Тегуцигальпа"
+  },
+  {
+    "en": "America/Thule",
+    "ru": "Америка/Туле"
+  },
+  {
+    "en": "America/Thunder_Bay",
+    "ru": "Америка/Тандер-Бей"
+  },
+  {
+    "en": "America/Tijuana",
+    "ru": "Америка/Тихуана"
+  },
+  {
+    "en": "America/Toronto",
+    "ru": "Америка/Торонто"
+  },
+  {
+    "en": "America/Tortola",
+    "ru": "Америка/Тортола"
+  },
+  {
+    "en": "America/Vancouver",
+    "ru": "Америка/Ванкувер"
+  },
+  {
+    "en": "America/Virgin",
+    "ru": "Америка/Девственница"
+  },
+  {
+    "en": "America/Whitehorse",
+    "ru": "Америка/Уайтхорс"
+  },
+  {
+    "en": "America/Winnipeg",
+    "ru": "Америка/Виннипег"
+  },
+  {
+    "en": "America/Yakutat",
+    "ru": "Америка/Якутат"
+  },
+  {
+    "en": "America/Yellowknife",
+    "ru": "Америка/Йеллоунайф"
+  },
+  {
+    "en": "Antarctica/Casey",
+    "ru": "Антарктида/Кейси"
+  },
+  {
+    "en": "Antarctica/Davis",
+    "ru": "Антарктида/Дэвис"
+  },
+  {
+    "en": "Antarctica/DumontDUrville",
+    "ru": "Антарктида/Дюмондурвиль"
+  },
+  {
+    "en": "Antarctica/Macquarie",
+    "ru": "Антарктида/Маккуори"
+  },
+  {
+    "en": "Antarctica/Mawson",
+    "ru": "Антарктида/Моусон"
+  },
+  {
+    "en": "Antarctica/McMurdo",
+    "ru": "Антарктида/МакМердо"
+  },
+  {
+    "en": "Antarctica/Palmer",
+    "ru": "Антарктида/Палмер"
+  },
+  {
+    "en": "Antarctica/Rothera",
+    "ru": "Антарктида/Ротера"
+  },
+  {
+    "en": "Antarctica/South_Pole",
+    "ru": "Антарктида/Ю́жный по́люс Земли"
+  },
+  {
+    "en": "Antarctica/Syowa",
+    "ru": "Антарктида/Сайова"
+  },
+  {
+    "en": "Antarctica/Troll",
+    "ru": "Антарктида/Тролль"
+  },
+  {
+    "en": "Antarctica/Vostok",
+    "ru": "Антарктида/Восток"
+  },
+  {
+    "en": "Arctic/Longyearbyen",
+    "ru": "Арктика/Лонгьир"
+  },
+  {
+    "en": "Asia/Aden",
+    "ru": "Азия/Аден"
+  },
+  {
+    "en": "Asia/Almaty",
+    "ru": "Азия/Алматы"
+  },
+  {
+    "en": "Asia/Amman",
+    "ru": "Азия/Амман"
+  },
+  {
+    "en": "Asia/Anadyr",
+    "ru": "Азия/Анадырь"
+  },
+  {
+    "en": "Asia/Aqtau",
+    "ru": "Азия/Актау"
+  },
+  {
+    "en": "Asia/Aqtobe",
+    "ru": "Азия/Актобе"
+  },
+  {
+    "en": "Asia/Ashgabat",
+    "ru": "Азия/Ашгабат"
+  },
+  {
+    "en": "Asia/Ashkhabad",
+    "ru": "Азия/Ашхабад"
+  },
+  {
+    "en": "Asia/Atyrau",
+    "ru": "Азия/Атирау"
+  },
+  {
+    "en": "Asia/Baghdad",
+    "ru": "Азия/Багдад"
+  },
+  {
+    "en": "Asia/Bahrain",
+    "ru": "Азия/Бахрейн"
+  },
+  {
+    "en": "Asia/Baku",
+    "ru": "Азия/Стандарт"
+  },
+  {
+    "en": "Asia/Bangkok",
+    "ru": "Азия/Бангкок"
+  },
+  {
+    "en": "Asia/Barnaul",
+    "ru": "Азия/Барнаул"
+  },
+  {
+    "en": "Asia/Beirut",
+    "ru": "Вещь/Бейрут"
+  },
+  {
+    "en": "Asia/Bishkek",
+    "ru": "Азия/Бишкек"
+  },
+  {
+    "en": "Asia/Brunei",
+    "ru": "Азия/Бруней"
+  },
+  {
+    "en": "Asia/Calcutta",
+    "ru": "Азия/Калькутта"
+  },
+  {
+    "en": "Asia/Chita",
+    "ru": "Азия/Чита"
+  },
+  {
+    "en": "Asia/Choibalsan",
+    "ru": "Азия/Чобалсан"
+  },
+  {
+    "en": "Asia/Chongqing",
+    "ru": "Азия/Чунцин"
+  },
+  {
+    "en": "Asia/Chungking",
+    "ru": "Азия/Чунгкинг"
+  },
+  {
+    "en": "Asia/Colombo",
+    "ru": "Азия/Коломбо"
+  },
+  {
+    "en": "Asia/Dacca",
+    "ru": "Азия/Дакка"
+  },
+  {
+    "en": "Asia/Damascus",
+    "ru": "Азия/Дамаск"
+  },
+  {
+    "en": "Asia/Dhaka",
+    "ru": "Азия/Дакка"
+  },
+  {
+    "en": "Asia/Dili",
+    "ru": "Азия/Дили"
+  },
+  {
+    "en": "Asia/Dubai",
+    "ru": "Азия/Дубай"
+  },
+  {
+    "en": "Asia/Dushanbe",
+    "ru": "Азия/Душанбе"
+  },
+  {
+    "en": "Asia/Famagusta",
+    "ru": "Азия/Фамагуста"
+  },
+  {
+    "en": "Asia/Gaza",
+    "ru": "Азия/Газа"
+  },
+  {
+    "en": "Asia/Harbin",
+    "ru": "Вещь/Харбин"
+  },
+  {
+    "en": "Asia/Hebron",
+    "ru": "Азия/Хеврон"
+  },
+  {
+    "en": "Asia/Ho_Chi_Minh",
+    "ru": "Азия/Хо Ши Мин"
+  },
+  {
+    "en": "Asia/Hong_Kong",
+    "ru": "Азия/Гонконг"
+  },
+  {
+    "en": "Asia/Hovd",
+    "ru": "Азия/Ховд"
+  },
+  {
+    "en": "Asia/Irkutsk",
+    "ru": "Азия/Иркутск"
+  },
+  {
+    "en": "Asia/Istanbul",
+    "ru": "Азия/Стамбул"
+  },
+  {
+    "en": "Asia/Jakarta",
+    "ru": "Вещь/Джакарта"
+  },
+  {
+    "en": "Asia/Jayapura",
+    "ru": "Азия/Джаяпура"
+  },
+  {
+    "en": "Asia/Jerusalem",
+    "ru": "Азия/Иерусалим"
+  },
+  {
+    "en": "Asia/Kabul",
+    "ru": "Азия/Кабул"
+  },
+  {
+    "en": "Asia/Kamchatka",
+    "ru": "Азия/Камчатка"
+  },
+  {
+    "en": "Asia/Karachi",
+    "ru": "Азия/Карачи"
+  },
+  {
+    "en": "Asia/Kashgar",
+    "ru": "Азия/Кашгар"
+  },
+  {
+    "en": "Asia/Kathmandu",
+    "ru": "Азия/Катманду"
+  },
+  {
+    "en": "Asia/Katmandu",
+    "ru": "Азия/Катму"
+  },
+  {
+    "en": "Asia/Khandyga",
+    "ru": "Азия/Ххадига"
+  },
+  {
+    "en": "Asia/Kolkata",
+    "ru": "Азия/Калькутта"
+  },
+  {
+    "en": "Asia/Krasnoyarsk",
+    "ru": "Азия/Красноярск"
+  },
+  {
+    "en": "Asia/Kuala_Lumpur",
+    "ru": "Азия/Куала-Лумпур"
+  },
+  {
+    "en": "Asia/Kuching",
+    "ru": "Азия/Кучинг"
+  },
+  {
+    "en": "Asia/Kuwait",
+    "ru": "Азия/Кувейт"
+  },
+  {
+    "en": "Asia/Macao",
+    "ru": "Азия/Макао"
+  },
+  {
+    "en": "Asia/Macau",
+    "ru": "Азия/Макао"
+  },
+  {
+    "en": "Asia/Magadan",
+    "ru": "Азия/Магадан"
+  },
+  {
+    "en": "Asia/Makassar",
+    "ru": "Азия/Макассар"
+  },
+  {
+    "en": "Asia/Manila",
+    "ru": "Вещь/Манила"
+  },
+  {
+    "en": "Asia/Muscat",
+    "ru": "Азия/Маскат"
+  },
+  {
+    "en": "Asia/Nicosia",
+    "ru": "Азия/Никосия"
+  },
+  {
+    "en": "Asia/Novokuznetsk",
+    "ru": "Азия/Новокузнец"
+  },
+  {
+    "en": "Asia/Novosibirsk",
+    "ru": "Азия/Новосибирск"
+  },
+  {
+    "en": "Asia/Omsk",
+    "ru": "Азия/Омск"
+  },
+  {
+    "en": "Asia/Oral",
+    "ru": "Азия/Уральск"
+  },
+  {
+    "en": "Asia/Phnom_Penh",
+    "ru": "Азия/Пном Пен"
+  },
+  {
+    "en": "Asia/Pontianak",
+    "ru": "Азия/Понтианак"
+  },
+  {
+    "en": "Asia/Pyongyang",
+    "ru": "Азия/Пхеньян"
+  },
+  {
+    "en": "Asia/Qatar",
+    "ru": "Азия/Катар"
+  },
+  {
+    "en": "Asia/Qostanay",
+    "ru": "Азия/Квастей"
+  },
+  {
+    "en": "Asia/Qyzylorda",
+    "ru": "Азия/Кызылорда"
+  },
+  {
+    "en": "Asia/Rangoon",
+    "ru": "Азия/Янгон"
+  },
+  {
+    "en": "Asia/Riyadh",
+    "ru": "Азия/Эр-Рияд"
+  },
+  {
+    "en": "Asia/Saigon",
+    "ru": "Азия/Хошимин"
+  },
+  {
+    "en": "Asia/Sakhalin",
+    "ru": "Азия/Сахалин"
+  },
+  {
+    "en": "Asia/Samarkand",
+    "ru": "Азия/Самарканд"
+  },
+  {
+    "en": "Asia/Seoul",
+    "ru": "Азия/Сеул"
+  },
+  {
+    "en": "Asia/Shanghai",
+    "ru": "Азия/Шанхай"
+  },
+  {
+    "en": "Asia/Singapore",
+    "ru": "Азия/Сингапур"
+  },
+  {
+    "en": "Asia/Srednekolymsk",
+    "ru": "Азия/Среднеколымск"
+  },
+  {
+    "en": "Asia/Taipei",
+    "ru": "Азия/Тайбэй"
+  },
+  {
+    "en": "Asia/Tashkent",
+    "ru": "Азия/Ташкент"
+  },
+  {
+    "en": "Asia/Tbilisi",
+    "ru": "Азия/Тбилиси"
+  },
+  {
+    "en": "Asia/Tehran",
+    "ru": "Азия/Тегеран"
+  },
+  {
+    "en": "Asia/Tel_Aviv",
+    "ru": "Азия/Тель-Авив"
+  },
+  {
+    "en": "Asia/Thimbu",
+    "ru": "Азия/Тимбу"
+  },
+  {
+    "en": "Asia/Thimphu",
+    "ru": "Азия/Тимфу"
+  },
+  {
+    "en": "Asia/Tokyo",
+    "ru": "Азия/Токио"
+  },
+  {
+    "en": "Asia/Tomsk",
+    "ru": "Азия/Томск"
+  },
+  {
+    "en": "Asia/Ujung_Pandang",
+    "ru": "Азия/Макассар"
+  },
+  {
+    "en": "Asia/Ulaanbaatar",
+    "ru": "Азия/Улаанбаатар"
+  },
+  {
+    "en": "Asia/Ulan_Bator",
+    "ru": "Азия/Улан-Батор"
+  },
+  {
+    "en": "Asia/Urumqi",
+    "ru": "Азия/Урумчи"
+  },
+  {
+    "en": "Asia/Ust-Nera",
+    "ru": "Азия/Усть-Нера"
+  },
+  {
+    "en": "Asia/Vientiane",
+    "ru": "Азия/Вьентьян"
+  },
+  {
+    "en": "Asia/Vladivostok",
+    "ru": "Азия/Владивосток"
+  },
+  {
+    "en": "Asia/Yakutsk",
+    "ru": "Азия/Якутск"
+  },
+  {
+    "en": "Asia/Yangon",
+    "ru": "Азия/Янгон"
+  },
+  {
+    "en": "Asia/Yekaterinburg",
+    "ru": "Азия/Екатеринбург"
+  },
+  {
+    "en": "Asia/Yerevan",
+    "ru": "Азия/Ереван"
+  },
+  {
+    "en": "Atlantic/Azores",
+    "ru": "Атлантика/Азорские острова"
+  },
+  {
+    "en": "Atlantic/Bermuda",
+    "ru": "Атлантика/Бермудские острова"
+  },
+  {
+    "en": "Atlantic/Canary",
+    "ru": "Атлантика/канарейка"
+  },
+  {
+    "en": "Atlantic/Cape_Verde",
+    "ru": "Atlantic/Кабо-Верде"
+  },
+  {
+    "en": "Atlantic/Faeroe",
+    "ru": "Атлантика/Фаеро"
+  },
+  {
+    "en": "Atlantic/Faroe",
+    "ru": "Атлантика/Фарера"
+  },
+  {
+    "en": "Atlantic/Jan_Mayen",
+    "ru": "Атлантика/Ян-Майен"
+  },
+  {
+    "en": "Atlantic/Madeira",
+    "ru": "Атлантика/Мадейра"
+  },
+  {
+    "en": "Atlantic/Reykjavik",
+    "ru": "Атлантика/Рейкьявик"
+  },
+  {
+    "en": "Atlantic/South_Georgia",
+    "ru": "Атлантика/Южная Джорджия"
+  },
+  {
+    "en": "Atlantic/St_Helena",
+    "ru": "Атлантика/о. Св. Елены"
+  },
+  {
+    "en": "Atlantic/Stanley",
+    "ru": "Атлантика/Стэнли"
+  },
+  {
+    "en": "Australia/ACT",
+    "ru": "Австралия/Акт"
+  },
+  {
+    "en": "Australia/Adelaide",
+    "ru": "Австралия/Аделаида"
+  },
+  {
+    "en": "Australia/Brisbane",
+    "ru": "Австралия/Брисбен"
+  },
+  {
+    "en": "Australia/Broken_Hill",
+    "ru": "Австралия/Брокен-Хилл"
+  },
+  {
+    "en": "Australia/Canberra",
+    "ru": "Австралия/Канберра"
+  },
+  {
+    "en": "Australia/Currie",
+    "ru": "Австралия/Керри"
+  },
+  {
+    "en": "Australia/Darwin",
+    "ru": "Австралия/Дарвин"
+  },
+  {
+    "en": "Australia/Eucla",
+    "ru": "Австралия/Евкла"
+  },
+  {
+    "en": "Australia/Hobart",
+    "ru": "Австралия/Хобарт"
+  },
+  {
+    "en": "Australia/LHI",
+    "ru": "Австралия/LHI"
+  },
+  {
+    "en": "Australia/Lindeman",
+    "ru": "Австралия/Линдеман"
+  },
+  {
+    "en": "Australia/Lord_Howe",
+    "ru": "Австралия/Лорд-Хау"
+  },
+  {
+    "en": "Australia/Melbourne",
+    "ru": "Австралия/Мельбурн"
+  },
+  {
+    "en": "Australia/North",
+    "ru": "Австралия/Север"
+  },
+  {
+    "en": "Australia/NSW",
+    "ru": "Австралия/Новый Южный Уэльс"
+  },
+  {
+    "en": "Australia/Perth",
+    "ru": "Австралия/Перт"
+  },
+  {
+    "en": "Australia/Queensland",
+    "ru": "Австралия/Квинсленд"
+  },
+  {
+    "en": "Australia/South",
+    "ru": "Австралия/Юг"
+  },
+  {
+    "en": "Australia/Sydney",
+    "ru": "Австралия/Сидней"
+  },
+  {
+    "en": "Australia/Tasmania",
+    "ru": "Австралия/Тасмания"
+  },
+  {
+    "en": "Australia/Victoria",
+    "ru": "Австралия/Виктория"
+  },
+  {
+    "en": "Australia/West",
+    "ru": "Австралия/Запад"
+  },
+  {
+    "en": "Australia/Yancowinna",
+    "ru": "Австралия/Янковинна"
+  },
+  {
+    "en": "Brazil/Acre",
+    "ru": "Бразилия/Акра"
+  },
+  {
+    "en": "Brazil/DeNoronha",
+    "ru": "Бразилия/Денорона"
+  },
+  {
+    "en": "Brazil/East",
+    "ru": "Бразилия/Восток"
+  },
+  {
+    "en": "Brazil/West",
+    "ru": "Бразилия/Запад"
+  },
+  {
+    "en": "Canada/Atlantic",
+    "ru": "Канада/Атлантика"
+  },
+  {
+    "en": "Canada/Central",
+    "ru": "Канада/Центральный"
+  },
+  {
+    "en": "Canada/Eastern",
+    "ru": "Канада/Восточный"
+  },
+  {
+    "en": "Canada/Mountain",
+    "ru": "Канада/гора"
+  },
+  {
+    "en": "Canada/Newfoundland",
+    "ru": "Канада/Ньюфаундленд"
+  },
+  {
+    "en": "Canada/Pacific",
+    "ru": "Канада/Тихоокеан"
+  },
+  {
+    "en": "Canada/Saskatchewan",
+    "ru": "Канада/Саскачеван"
+  },
+  {
+    "en": "Canada/Yukon",
+    "ru": "Канада/Юкон"
+  },
+  {
+    "en": "CET",
+    "ru": "CET"
+  },
+  {
+    "en": "Chile/Continental",
+    "ru": "Чили/Континентальный"
+  },
+  {
+    "en": "Chile/EasterIsland",
+    "ru": "Чили/Остров Пасхи"
+  },
+  {
+    "en": "CST6CDT",
+    "ru": "CST6CDT"
+  },
+  {
+    "en": "Cuba",
+    "ru": "Куба"
+  },
+  {
+    "en": "EET",
+    "ru": "восточноевропейское время"
+  },
+  {
+    "en": "Egypt",
+    "ru": "Египет"
+  },
+  {
+    "en": "Eire",
+    "ru": "Эйре"
+  },
+  {
+    "en": "EST",
+    "ru": "ЯВЛЯЕТСЯ"
+  },
+  {
+    "en": "EST5EDT",
+    "ru": "Est5edt"
+  },
+  {
+    "en": "Etc/GMT",
+    "ru": "Etc/GMT"
+  },
+  {
+    "en": "Etc/GMT-0",
+    "ru": "Etc/GMT-0"
+  },
+  {
+    "en": "Etc/GMT-1",
+    "ru": "Etc/GMT-1"
+  },
+  {
+    "en": "Etc/GMT-10",
+    "ru": "Etc/GMT-10"
+  },
+  {
+    "en": "Etc/GMT-11",
+    "ru": "Etc/GMT-11"
+  },
+  {
+    "en": "Etc/GMT-12",
+    "ru": "Etc/GMT-12"
+  },
+  {
+    "en": "Etc/GMT-13",
+    "ru": "Etc/GMT-1"
+  },
+  {
+    "en": "Etc/GMT-14",
+    "ru": "Etc/GMT-1"
+  },
+  {
+    "en": "Etc/GMT-2",
+    "ru": "Etc/GMT-2"
+  },
+  {
+    "en": "Etc/GMT-3",
+    "ru": "Etc/GMT-3"
+  },
+  {
+    "en": "Etc/GMT-4",
+    "ru": "Etc/GMT-4"
+  },
+  {
+    "en": "Etc/GMT-5",
+    "ru": "Etc/GMT-5"
+  },
+  {
+    "en": "Etc/GMT-6",
+    "ru": "Etc/GMT-6"
+  },
+  {
+    "en": "Etc/GMT-7",
+    "ru": "Etc/GMT-7"
+  },
+  {
+    "en": "Etc/GMT-8",
+    "ru": "Etc/GMT-8"
+  },
+  {
+    "en": "Etc/GMT-9",
+    "ru": "Etc/GMT-9"
+  },
+  {
+    "en": "Etc/GMT+0",
+    "ru": "Etc/GMT+0"
+  },
+  {
+    "en": "Etc/GMT+1",
+    "ru": "Etc/GMT+1"
+  },
+  {
+    "en": "Etc/GMT+10",
+    "ru": "Etc/GMT+10"
+  },
+  {
+    "en": "Etc/GMT+11",
+    "ru": "Etc/GMT+11"
+  },
+  {
+    "en": "Etc/GMT+12",
+    "ru": "Etc/GMT+1"
+  },
+  {
+    "en": "Etc/GMT+2",
+    "ru": "Etc/GMT+2"
+  },
+  {
+    "en": "Etc/GMT+3",
+    "ru": "Etc/GMT+3"
+  },
+  {
+    "en": "Etc/GMT+4",
+    "ru": "Etc/gmt+4"
+  },
+  {
+    "en": "Etc/GMT+5",
+    "ru": "Etc/GMT+5"
+  },
+  {
+    "en": "Etc/GMT+6",
+    "ru": "Etc/GMT+6"
+  },
+  {
+    "en": "Etc/GMT+7",
+    "ru": "Etc/GMT+7"
+  },
+  {
+    "en": "Etc/GMT+8",
+    "ru": "Etc/GMT+8"
+  },
+  {
+    "en": "Etc/GMT+9",
+    "ru": "Etc/GMT+9"
+  },
+  {
+    "en": "Etc/GMT0",
+    "ru": "Etc/GMT0"
+  },
+  {
+    "en": "Etc/Greenwich",
+    "ru": "Etc/Гринвич"
+  },
+  {
+    "en": "Etc/UCT",
+    "ru": "Etc/UCT"
+  },
+  {
+    "en": "Etc/Universal",
+    "ru": "Etc/универсальный"
+  },
+  {
+    "en": "Etc/UTC",
+    "ru": "Etc/UTC"
+  },
+  {
+    "en": "Etc/Zulu",
+    "ru": "Etc/Зулу"
+  },
+  {
+    "en": "Europe/Amsterdam",
+    "ru": "Европа/Амстердам"
+  },
+  {
+    "en": "Europe/Andorra",
+    "ru": "Европа/Андорра"
+  },
+  {
+    "en": "Europe/Astrakhan",
+    "ru": "Европа/Астрахан"
+  },
+  {
+    "en": "Europe/Athens",
+    "ru": "Европа/Афины"
+  },
+  {
+    "en": "Europe/Belfast",
+    "ru": "Европа/Белфаст"
+  },
+  {
+    "en": "Europe/Belgrade",
+    "ru": "Европа/Белград"
+  },
+  {
+    "en": "Europe/Berlin",
+    "ru": "Европа/Берлин"
+  },
+  {
+    "en": "Europe/Bratislava",
+    "ru": "Европа/Братислава"
+  },
+  {
+    "en": "Europe/Brussels",
+    "ru": "Европа/Брюссель"
+  },
+  {
+    "en": "Europe/Bucharest",
+    "ru": "Европа/Бухарест"
+  },
+  {
+    "en": "Europe/Budapest",
+    "ru": "Европа/Будапешт"
+  },
+  {
+    "en": "Europe/Busingen",
+    "ru": "Европа/Бусинген"
+  },
+  {
+    "en": "Europe/Chisinau",
+    "ru": "Европа/Чизинау"
+  },
+  {
+    "en": "Europe/Copenhagen",
+    "ru": "Европа/Копенгаген"
+  },
+  {
+    "en": "Europe/Dublin",
+    "ru": "Европа/Дублин"
+  },
+  {
+    "en": "Europe/Gibraltar",
+    "ru": "Европа/Гибралтар"
+  },
+  {
+    "en": "Europe/Guernsey",
+    "ru": "Европа/Гернси"
+  },
+  {
+    "en": "Europe/Helsinki",
+    "ru": "Европа/Хельсинки"
+  },
+  {
+    "en": "Europe/Isle_of_Man",
+    "ru": "Европа/о-в Мэн"
+  },
+  {
+    "en": "Europe/Istanbul",
+    "ru": "Европа/Стамбул"
+  },
+  {
+    "en": "Europe/Jersey",
+    "ru": "Европа/Джерси"
+  },
+  {
+    "en": "Europe/Kaliningrad",
+    "ru": "Европа/Калининград"
+  },
+  {
+    "en": "Europe/Kiev",
+    "ru": "Европа/Киев"
+  },
+  {
+    "en": "Europe/Kirov",
+    "ru": "Европа/Киров"
+  },
+  {
+    "en": "Europe/Lisbon",
+    "ru": "Европа/Лиссабон"
+  },
+  {
+    "en": "Europe/Ljubljana",
+    "ru": "Европа/Любляна"
+  },
+  {
+    "en": "Europe/London",
+    "ru": "Европа/Лондон"
+  },
+  {
+    "en": "Europe/Luxembourg",
+    "ru": "Посетите Европу/Люксембург"
+  },
+  {
+    "en": "Europe/Madrid",
+    "ru": "Европа/Мадрид"
+  },
+  {
+    "en": "Europe/Malta",
+    "ru": "Европа/Мальта"
+  },
+  {
+    "en": "Europe/Mariehamn",
+    "ru": "Европа/Марихамн"
+  },
+  {
+    "en": "Europe/Minsk",
+    "ru": "Европа/Минск"
+  },
+  {
+    "en": "Europe/Monaco",
+    "ru": "Европа/Монако"
+  },
+  {
+    "en": "Europe/Moscow",
+    "ru": "Европа/Москва"
+  },
+  {
+    "en": "Europe/Nicosia",
+    "ru": "Европа/Никосия"
+  },
+  {
+    "en": "Europe/Oslo",
+    "ru": "Европа/Осло"
+  },
+  {
+    "en": "Europe/Paris",
+    "ru": "Европа/Париж"
+  },
+  {
+    "en": "Europe/Podgorica",
+    "ru": "Европа/Подгорика"
+  },
+  {
+    "en": "Europe/Prague",
+    "ru": "Европа/Прага"
+  },
+  {
+    "en": "Europe/Riga",
+    "ru": "Европа/Рига"
+  },
+  {
+    "en": "Europe/Rome",
+    "ru": "Европа/Рим"
+  },
+  {
+    "en": "Europe/Samara",
+    "ru": "Европа/Самара"
+  },
+  {
+    "en": "Europe/San_Marino",
+    "ru": "Европа/Сан_марино"
+  },
+  {
+    "en": "Europe/Sarajevo",
+    "ru": "Европа/Сараево"
+  },
+  {
+    "en": "Europe/Saratov",
+    "ru": "Европа/Саратов"
+  },
+  {
+    "en": "Europe/Simferopol",
+    "ru": "Европа/Симферополь"
+  },
+  {
+    "en": "Europe/Skopje",
+    "ru": "Европа/Скопье"
+  },
+  {
+    "en": "Europe/Sofia",
+    "ru": "Европа/София"
+  },
+  {
+    "en": "Europe/Stockholm",
+    "ru": "Европа/Стокгольм"
+  },
+  {
+    "en": "Europe/Tallinn",
+    "ru": "Европа/Таллинн"
+  },
+  {
+    "en": "Europe/Tirane",
+    "ru": "Европа/Тиран"
+  },
+  {
+    "en": "Europe/Tiraspol",
+    "ru": "Европа/Тираспол"
+  },
+  {
+    "en": "Europe/Ulyanovsk",
+    "ru": "Европа/Ulyanovsk"
+  },
+  {
+    "en": "Europe/Uzhgorod",
+    "ru": "Europe/Uzhgorod"
+  },
+  {
+    "en": "Europe/Vaduz",
+    "ru": "Европа/Вадуз"
+  },
+  {
+    "en": "Europe/Vatican",
+    "ru": "Европа/Ватикан"
+  },
+  {
+    "en": "Europe/Vienna",
+    "ru": "Европа/Вена"
+  },
+  {
+    "en": "Europe/Vilnius",
+    "ru": "Европа/Вильния"
+  },
+  {
+    "en": "Europe/Volgograd",
+    "ru": "Европа/Волгограда"
+  },
+  {
+    "en": "Europe/Warsaw",
+    "ru": "Европа/Варшава"
+  },
+  {
+    "en": "Europe/Zagreb",
+    "ru": "Европа/Загреб"
+  },
+  {
+    "en": "Europe/Zaporozhye",
+    "ru": "Европа/Zaporozhye"
+  },
+  {
+    "en": "Europe/Zurich",
+    "ru": "Европа/Цюрих"
+  },
+  {
+    "en": "GB",
+    "ru": "ГБ"
+  },
+  {
+    "en": "GB-Eire",
+    "ru": "ГБ-Эйр"
+  },
+  {
+    "en": "GMT",
+    "ru": "время по Гринвичу"
+  },
+  {
+    "en": "GMT-0",
+    "ru": "GMT-0"
+  },
+  {
+    "en": "GMT+0",
+    "ru": "GMT+0"
+  },
+  {
+    "en": "GMT0",
+    "ru": "время по Гринвичу"
+  },
+  {
+    "en": "Greenwich",
+    "ru": "Гринвич"
+  },
+  {
+    "en": "Hongkong",
+    "ru": "Гонконг"
+  },
+  {
+    "en": "HST",
+    "ru": "HST"
+  },
+  {
+    "en": "Iceland",
+    "ru": "Исландия"
+  },
+  {
+    "en": "Indian/Antananarivo",
+    "ru": "Индиан/Антананариво"
+  },
+  {
+    "en": "Indian/Chagos",
+    "ru": "Индийский/Чагос"
+  },
+  {
+    "en": "Indian/Christmas",
+    "ru": "Индиец/Рождество"
+  },
+  {
+    "en": "Indian/Cocos",
+    "ru": "Индиец/Кокос"
+  },
+  {
+    "en": "Indian/Comoro",
+    "ru": "Индийские/Коморские"
+  },
+  {
+    "en": "Indian/Kerguelen",
+    "ru": "Индийские/Кергелен"
+  },
+  {
+    "en": "Indian/Mahe",
+    "ru": "Индиан/Маха"
+  },
+  {
+    "en": "Indian/Maldives",
+    "ru": "Индийские/Мальдивы"
+  },
+  {
+    "en": "Indian/Mauritius",
+    "ru": "Индиан/Маврикий"
+  },
+  {
+    "en": "Indian/Mayotte",
+    "ru": "Индиан/Майотт"
+  },
+  {
+    "en": "Indian/Reunion",
+    "ru": "Индийский/Реюньон"
+  },
+  {
+    "en": "Iran",
+    "ru": "Иран"
+  },
+  {
+    "en": "Israel",
+    "ru": "Израиль"
+  },
+  {
+    "en": "Jamaica",
+    "ru": "Ямайка"
+  },
+  {
+    "en": "Japan",
+    "ru": "Япония"
+  },
+  {
+    "en": "Kwajalein",
+    "ru": "Кваджалейн"
+  },
+  {
+    "en": "Libya",
+    "ru": "Ливия"
+  },
+  {
+    "en": "MET",
+    "ru": "MET"
+  },
+  {
+    "en": "Mexico/BajaNorte",
+    "ru": "Мексика/Баджанорте"
+  },
+  {
+    "en": "Mexico/BajaSur",
+    "ru": "Мексика/Баджасур"
+  },
+  {
+    "en": "Mexico/General",
+    "ru": "Мексика/генерал"
+  },
+  {
+    "en": "MST",
+    "ru": "MST"
+  },
+  {
+    "en": "MST7MDT",
+    "ru": "MST7MDT"
+  },
+  {
+    "en": "Navajo",
+    "ru": "Навахо"
+  },
+  {
+    "en": "NZ",
+    "ru": "Новая Зеландия"
+  },
+  {
+    "en": "NZ-CHAT",
+    "ru": "NZ-CHAT"
+  },
+  {
+    "en": "Pacific/Apia",
+    "ru": "Тихоокеанский/Апиа"
+  },
+  {
+    "en": "Pacific/Auckland",
+    "ru": "Тихоокеанский/Окленд"
+  },
+  {
+    "en": "Pacific/Bougainville",
+    "ru": "Тихоокеанский/Бугенвиль"
+  },
+  {
+    "en": "Pacific/Chatham",
+    "ru": "Тихоокеанский/Чатем"
+  },
+  {
+    "en": "Pacific/Chuuk",
+    "ru": "Тихоокеанский/чук"
+  },
+  {
+    "en": "Pacific/Easter",
+    "ru": "Тихоокеанская/Пасха"
+  },
+  {
+    "en": "Pacific/Efate",
+    "ru": "Тихоокеанский/Эфате"
+  },
+  {
+    "en": "Pacific/Enderbury",
+    "ru": "Тихоокеанский/Эндербери"
+  },
+  {
+    "en": "Pacific/Fakaofo",
+    "ru": "Тихоокеанский/Факаофо"
+  },
+  {
+    "en": "Pacific/Fiji",
+    "ru": "Тихоокеанский/Фиджи"
+  },
+  {
+    "en": "Pacific/Funafuti",
+    "ru": "Тихоокеанский/Флафута"
+  },
+  {
+    "en": "Pacific/Galapagos",
+    "ru": "Тихоокеанский/Галапагос"
+  },
+  {
+    "en": "Pacific/Gambier",
+    "ru": "Тихоокеанский/Гамбье"
+  },
+  {
+    "en": "Pacific/Guadalcanal",
+    "ru": "Тихоокеанский/Гуадалканал"
+  },
+  {
+    "en": "Pacific/Guam",
+    "ru": "Тихоокеанский/Гуам"
+  },
+  {
+    "en": "Pacific/Honolulu",
+    "ru": "Тихоокеанский/Гонолулу"
+  },
+  {
+    "en": "Pacific/Johnston",
+    "ru": "Тихоокеанский/Джонстон"
+  },
+  {
+    "en": "Pacific/Kanton",
+    "ru": "Тихоокеанский/Кантон"
+  },
+  {
+    "en": "Pacific/Kiritimati",
+    "ru": "Тихоокеанский/Остров Рождества"
+  },
+  {
+    "en": "Pacific/Kosrae",
+    "ru": "Тихоокеанский/Кусаие"
+  },
+  {
+    "en": "Pacific/Kwajalein",
+    "ru": "Тихоокеанский/Кваджалейн"
+  },
+  {
+    "en": "Pacific/Majuro",
+    "ru": "Тихоокеанский/Маджуро"
+  },
+  {
+    "en": "Pacific/Marquesas",
+    "ru": "Тихоокеанский/Иль Маркиз"
+  },
+  {
+    "en": "Pacific/Midway",
+    "ru": "Тихоокеанский/Мидуэй"
+  },
+  {
+    "en": "Pacific/Nauru",
+    "ru": "Тихоокеанский/Науру"
+  },
+  {
+    "en": "Pacific/Niue",
+    "ru": "Тихоокеанский/Ниуэ"
+  },
+  {
+    "en": "Pacific/Norfolk",
+    "ru": "Тихоокеанский/Норфолк"
+  },
+  {
+    "en": "Pacific/Noumea",
+    "ru": "Тихоокеанский/Нумеа"
+  },
+  {
+    "en": "Pacific/Pago_Pago",
+    "ru": "Тихоокеанский/Паго-Паго"
+  },
+  {
+    "en": "Pacific/Palau",
+    "ru": "Тихоокеанский/Палау"
+  },
+  {
+    "en": "Pacific/Pitcairn",
+    "ru": "Тихоокеанский/о-ва Питкэрн"
+  },
+  {
+    "en": "Pacific/Pohnpei",
+    "ru": "Тихоокеанский/Понпей"
+  },
+  {
+    "en": "Pacific/Ponape",
+    "ru": "Тихоокеанский/Понапе"
+  },
+  {
+    "en": "Pacific/Port_Moresby",
+    "ru": "Тихоокеанский/Порт-Морсби"
+  },
+  {
+    "en": "Pacific/Rarotonga",
+    "ru": "Тихоокеанский/Раротонга"
+  },
+  {
+    "en": "Pacific/Saipan",
+    "ru": "Тихоокеанский/Сайпан"
+  },
+  {
+    "en": "Pacific/Samoa",
+    "ru": "Тихоокеанский/Самоа"
+  },
+  {
+    "en": "Pacific/Tahiti",
+    "ru": "Тихоокеанский/Таити"
+  },
+  {
+    "en": "Pacific/Tarawa",
+    "ru": "Тихоокеанский/Тарава"
+  },
+  {
+    "en": "Pacific/Tongatapu",
+    "ru": "Тихоокеанский/Тонгатапу"
+  },
+  {
+    "en": "Pacific/Truk",
+    "ru": "Тихоокеанский/Трак"
+  },
+  {
+    "en": "Pacific/Wake",
+    "ru": "Тихоокеанский/Остров Уэйк"
+  },
+  {
+    "en": "Pacific/Wallis",
+    "ru": "Тихоокеанский/Уоллис"
+  },
+  {
+    "en": "Pacific/Yap",
+    "ru": "Тихоокеанский/Яп"
+  },
+  {
+    "en": "Poland",
+    "ru": "Польша"
+  },
+  {
+    "en": "Portugal",
+    "ru": "Португалия"
+  },
+  {
+    "en": "PRC",
+    "ru": "КНР"
+  },
+  {
+    "en": "PST8PDT",
+    "ru": "PST8PDT"
+  },
+  {
+    "en": "ROC",
+    "ru": "Рок"
+  },
+  {
+    "en": "ROK",
+    "ru": "ГОД"
+  },
+  {
+    "en": "Singapore",
+    "ru": "Сингапур"
+  },
+  {
+    "en": "Turkey",
+    "ru": "Турция"
+  },
+  {
+    "en": "UCT",
+    "ru": "Uct"
+  },
+  {
+    "en": "Universal",
+    "ru": "Универсальный"
+  },
+  {
+    "en": "US/Alaska",
+    "ru": "США/Аляска"
+  },
+  {
+    "en": "US/Aleutian",
+    "ru": "США/Алеутиан"
+  },
+  {
+    "en": "US/Arizona",
+    "ru": "США/Аризона"
+  },
+  {
+    "en": "US/Central",
+    "ru": "США/Центральный"
+  },
+  {
+    "en": "US/East-Indiana",
+    "ru": "США/Восточная Индия"
+  },
+  {
+    "en": "US/Eastern",
+    "ru": "США/Восточный"
+  },
+  {
+    "en": "US/Hawaii",
+    "ru": "США/Гавайи"
+  },
+  {
+    "en": "US/Indiana-Starke",
+    "ru": "США/Индиана-Старке"
+  },
+  {
+    "en": "US/Michigan",
+    "ru": "США/Мичиган"
+  },
+  {
+    "en": "US/Mountain",
+    "ru": "США/гора"
+  },
+  {
+    "en": "US/Pacific",
+    "ru": "США/Тихоокеан"
+  },
+  {
+    "en": "US/Samoa",
+    "ru": "США/Самоа"
+  },
+  {
+    "en": "UTC",
+    "ru": "UTC"
+  },
+  {
+    "en": "W-SU",
+    "ru": "W-SU"
+  },
+  {
+    "en": "WET",
+    "ru": "WET"
+  },
+  {
+    "en": "Zulu",
+    "ru": "Зулу"
+  }
+]

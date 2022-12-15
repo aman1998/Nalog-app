@@ -1,0 +1,104 @@
+@media screen and(max-width: $max-lg-media) {
+  .create-document__step-two {
+    .transactions-list__item-wrapper {
+      margin: 0 -15px;
+    }
+    &__add-btn-wrapper {
+      display: block;
+      margin-top: 24px;
+      margin-bottom: 16px;
+    }
+    &__add-btn {
+      @include TransparentBtn;
+      height: 40px;
+    }
+    &__filter {
+      padding: 0 15px
+    }
+  }
+}
+
+@media screen and(max-width: $max-md-media) {
+  .create-document__step-two{
+    margin-top: 16px;
+    &__filter {
+      background: none;
+      padding: 0 15px;
+      row-gap: 24px;
+      .date-picker {
+        margin-right: 16px;
+        width: 214px;
+      }
+    }
+  }
+}
+
+
+@media screen and(max-width: $max-sm-media) {
+  .create-document__step-two {
+    margin-top: 0;
+    &__add-btn-wrapper {
+      margin-top: 16px;
+      width: 100%;
+    }
+    &__add-btn {
+      width: 100%;
+    }
+    &__tabs-wrapper {
+      display: block;
+      margin-top: 0;
+      padding: 14px 12px 0 20px;
+      background: $gray-2;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+      margin-bottom: 0 !important;
+      .ant-tabs-nav {
+        margin-bottom: 0;
+      }
+      .ant-tabs-nav-operations {
+        display: none !important;
+      }
+      .ant-tabs-nav-wrap-ping-left {
+        &::before {
+          opacity: 0;
+        }
+      }
+      .ant-tabs-nav-wrap-ping-right {
+        &::after {
+          opacity: 0 !important;
+        }
+      }
+      .ant-tabs-nav-wrap::before {
+        content: none !important;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: $max-xs-media) {
+  .create-document__step-two__filter {
+    flex-direction: column;
+    &--flex {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      .select {
+        margin-right: 0 !important;
+        width: 148px !important;
+      }
+    }
+    .select {
+      margin-right: 0;
+      width: 100%;
+    }
+    .date-picker {
+      width: 100%;
+    }
+  }
+}
+
+
+@media screen and(max-width: $max-sm-media) {
+  .step-widget-tabs-wrapper {
+    margin-bottom: 0 !important;
+  }
+}

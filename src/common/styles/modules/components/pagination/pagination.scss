@@ -1,0 +1,100 @@
+.bn-pagination {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  &__search_wrapper {
+    margin-left: 24px;
+  }
+  &__search {
+    margin: 0 0 0 8px;
+    padding: 0 0 0 8px;
+    height: 32px;
+    width: 50px;
+    background: $gray-1;
+    border: 1px solid $gray-5;
+    border-radius: 2px;
+    line-height: 30px;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+
+  .page-item:first-child .page-link {
+    background: $gray-1;
+    border: 1px solid $gray-5;
+  }
+
+  .page-item.active .page-link {
+    color: $main;
+    border-color: $main;
+    background-color: $gray-1;
+  }
+
+  .page-item.disabled .page-link {
+    color: $gray-7;
+    pointer-events: none;
+    background-color: $gray-1;
+    border-color: $gray-4;
+  }
+  .page-link:hover {
+    background-color: $gray-2 !important;
+  }
+  .page-link {
+    padding: 0 0.7rem;
+    height: 32px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: $gray-9;
+    text-decoration: none;
+    background-color: $gray-1;
+    border: 1px solid $gray-5;
+    border-radius: 2px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+  .page-item:not(:first-child) {
+    margin-left: 8px;
+  }
+
+  [role="button"] {
+    cursor: pointer;
+  }
+  [aria-label='Next page'] {
+    transform: rotate(180deg);
+  }
+}
+
+@media screen and (max-width: $max-sm-media) {
+  .bn-pagination {
+    &__search_wrapper {
+      margin-left: 4px;
+    }
+  }
+  .pagination {
+    .page-item:first-child .page-link {
+      border: 1px solid $gray-1;
+    }
+    .page-item:not(:first-child) {
+      margin-left: 0;
+    }
+    .page-link:hover {
+      background-color: $gray-1;
+    }
+    .page-link {
+      background-color: $gray-1;
+      border: 1px solid $gray-1;
+    }
+    .page-item.disabled .page-link {
+      border-color: $gray-1;
+    }
+  }
+}

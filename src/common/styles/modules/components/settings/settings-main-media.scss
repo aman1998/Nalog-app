@@ -1,0 +1,25 @@
+@media screen and(max-width: $sub-lm-media) {
+  .settings-main {
+    &__select-language {
+      width: 100%;
+    }
+    &__time-zone {
+      position: relative;
+      &__selector {
+        margin-right: 0;
+        width: 100%;
+      }
+      &__current-time {
+        margin-top: 0;
+        top: 0;
+        right: 0;
+        position: absolute;
+      }
+    }
+    &__currency {
+      &__select {
+        width: 100%;
+      }
+    }
+  }
+}

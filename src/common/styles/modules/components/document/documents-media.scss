@@ -1,0 +1,129 @@
+
+
+@media (max-width: $max-lg-media) {
+  .document-prompt-block {
+    width: 100%;
+    &__text-wrapper {
+      max-width: 90%;
+    }
+  }
+  .report-left-side {
+    width: 100% !important;
+    &__remaining-payment {
+      display: flex !important;
+      align-items: center;
+      margin: 24px 0 0 32px;
+      &-line {
+        margin: 0 16px;
+        width: 1px;
+        height: 32px;
+        background: $gray-3;
+      }
+    }
+    &__payment-text, &__remaining-text {
+      width: 99px;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 12px;
+      color: $gray-8;
+    }
+    &__payment {
+      &-text {
+        width: 88px;
+      }
+      &-sum {
+        color: $main;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 32px;
+      }
+    }
+  }
+}
+
+@media (max-width: $max-sm-media) {
+  .documents-page {
+    &__header {
+      background: none;
+      padding: 16px 0;
+      p {
+        margin-top: 0;
+        margin-bottom: 16px;
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    &__content {
+      margin-top: 24px;
+      &__title {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+    .btn-document {
+      width: 100%;
+    }
+  }
+  .document-prompt {
+    &__text {
+      margin: 0 16px;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+  .document-prompt-block {
+    display: none;
+  }
+  .report {
+    &-left-side {
+      width: 100%;
+
+      &__head {
+        margin: 0 0 32px 0;
+      }
+
+      &__remaining-payment {
+        margin: 0 0 0 32px;
+      }
+
+      &__title-wrapper {
+        display: none;
+      }
+
+      & button {
+        width: 100%;
+      }
+      hr{
+        display: none !important;
+      }
+    }
+  }
+  .report-description {
+    flex-direction: column;
+    align-items: start !important;
+
+    h4 {
+      font-size: 16px;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+  .report-ready {
+    flex-direction: column;
+    margin-bottom: 0 !important;
+
+    > div {
+      width: 100%;
+      margin: 10px;
+
+      .search-input {
+        width: 100%;
+      }
+    }
+  }
+  .report-search{
+    width: 100%;
+  }
+}

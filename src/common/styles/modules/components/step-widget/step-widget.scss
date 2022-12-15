@@ -1,0 +1,212 @@
+.step-widget {
+  @include Transition;
+  margin-top: 80px;
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  &.stickyTop {
+    top: 80px
+  }
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  &__header-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  &__header-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px 6px 15px;
+    background: $gray-1;
+    &__btn {
+      cursor: pointer;
+      color: $main;
+      font-size: 16px;
+      line-height: 24px;
+      &.disable {
+        color: $gray-5;
+        cursor: not-allowed;
+      }
+    }
+    &__title {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: $gray-9;
+    }
+    &__sub-title {
+      text-align: center;
+      font-size: 12px;
+      line-height: 16px;
+      color: $gray-7;
+    }
+    &__arrow {
+      cursor: pointer;
+      svg {
+        width: 12px;
+        height: 20px;
+      }
+      svg path {
+        fill: $gray-8;
+      }
+    }
+  }
+  &__steps {
+    padding-top: 48px;
+    padding-bottom: 24px;
+    background: $gray-2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    & .container {
+      position: relative;
+    }
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &__list {
+      max-width: 657px;
+      .createDocumentStepsListItemClickable {
+        cursor: pointer;
+        .ant-steps-item-icon {
+          border: 1px solid $main;
+        }
+        .ant-steps-icon {
+          color: $main;
+        }
+        &:hover {
+          .ant-steps-item-icon {
+            border: 1px solid $main;
+          }
+          .ant-steps-icon {
+            color: $main;
+          }
+          .ant-steps-item-title {
+            color: $main !important;
+          }
+        }
+      }
+      .ant-steps-item-icon {
+        @include FlexCenter;
+      }
+      .ant-steps-item {
+        &-container {
+          display: flex;
+          align-items: center;
+        }
+        &-title {
+          font-size: 14px;
+          line-height: 24px;
+          color: $gray-7;
+          &::after {
+            margin-top: -3px; // would like refactoring
+            border: 1px solid $gray-7;
+          }
+        }
+        &-finish {
+          .ant-steps-item-title {
+            color: $gray-9;
+            line-height: 24px;
+            &:hover {
+              color: $main !important;
+            }
+          }
+        }
+        &-active {
+          .ant-steps-item-icon {
+            background: $main;
+            border: 1px solid $main;
+          }
+          .ant-steps-item-title {
+            font-weight: 500;
+            font-size: 16px;
+            color: $gray-9;
+            &::after {
+              border: 1px solid $main;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: $gray-9;
+  }
+  &__btns {
+    display: flex;
+  }
+  &__btn {
+    margin-left: 8px;
+    min-width: 102px;
+  }
+  &__loading {
+    position: absolute;
+    top: calc(50% + 16px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    .default-spinner {
+      position: relative;
+    }
+    &-text {
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+      color: $gray-8;
+    }
+  }
+  &__empty {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    max-width: 520px;
+    height: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray-9;
+    a, span {
+      color: $main;
+      cursor: pointer;
+      border-bottom: 1px solid $main;
+    }
+  }
+}
+
+@media screen and(max-width: $max-lg-media) {
+  .step-widget {
+    &__add-btn {
+      display: none;
+    }
+  }
+}
+@media screen and(max-width: $max-md-media) {
+  .step-widget {
+    margin-top: 0;
+  }
+}
+
+@media screen and(max-width: $max-sm-media) {
+  .step-widget {
+    margin-top: 0;
+    position: relative;
+    z-index: 0;
+  }
+}
+
+@media screen and(max-width: $max-sm-media) {
+  .step-widget {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    &__steps {
+      display: none;
+    }
+  }
+}

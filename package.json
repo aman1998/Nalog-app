@@ -1,0 +1,143 @@
+{
+  "name": "saga-template-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-oauth/google": "^0.2.6",
+    "@reduxjs/toolkit": "^1.6.1",
+    "amplitude-js": "^8.13.0",
+    "antd": "^4.16.8",
+    "antd-mask-input": "^0.1.15",
+    "axios": "^0.21.1",
+    "chart.js": "^3.5.1",
+    "classnames": "^2.3.1",
+    "connected-react-router": "^6.9.1",
+    "core-js": "^3.23.3",
+    "downloadjs": "^1.4.7",
+    "formik": "^2.2.9",
+    "highcharts": "^10.0.0",
+    "highcharts-react-official": "^3.1.0",
+    "history": "^5.0.0",
+    "i18next": "^21.8.3",
+    "i18next-browser-languagedetector": "^6.1.4",
+    "i18next-chained-backend": "^3.0.2",
+    "i18next-http-backend": "^1.4.0",
+    "i18next-localstorage-backend": "^3.1.3",
+    "immutability-helper": "^3.1.1",
+    "immutable": "^4.0.0-rc.14",
+    "js-abbreviation-number": "^1.4.0",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-countdown": "^2.3.2",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dnd-touch-backend": "^16.0.1",
+    "react-dom": "^17.0.2",
+    "react-facebook-login": "^4.1.1",
+    "react-google-button": "^0.7.2",
+    "react-google-login": "^5.2.2",
+    "react-i18next": "^11.16.9",
+    "react-joyride": "^2.4.0",
+    "react-js-progressbar": "^1.1.1",
+    "react-moment": "^1.1.2",
+    "react-paginate": "^8.1.3",
+    "react-redux": "^7.2.4",
+    "react-responsive": "^9.0.0-beta.3",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^4.0.3",
+    "react-transition-group": "^4.4.5",
+    "react-yandex-metrika": "^2.6.0",
+    "redux": "^4.1.0",
+    "redux-saga": "^1.1.3",
+    "typescript": "^4.3.5",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:ts": "tslint -c tslint.json -t stylish --fix src/**/*.{ts,tsx}",
+    "lint:scss": "stylelint --fix {src,pages}/**/*.scss",
+    "lint:types": "tsc -p . --noEmit",
+    "lint": "eslint --fix --ext .ts,.tsx -c ./.eslintrc ./src",
+    "storybook": "start-storybook -s ./public -p 6006"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:types && npm run lint && lint-staged && git add ."
+    }
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "npm run lint",
+      "npm run lint:ts"
+    ],
+    "*.scss": [
+      "npm run lint:scss"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/amplitude-js": "^8.0.2",
+    "@types/axios": "^0.14.0",
+    "@types/downloadjs": "^1.4.3",
+    "@types/grecaptcha": "^3.0.3",
+    "@types/gtag.js": "^0.0.7",
+    "@types/jest": "26.0.24",
+    "@types/lodash": "^4.14.171",
+    "@types/node": "16.3.3",
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.9",
+    "@types/react-facebook-login": "^4.1.5",
+    "@types/react-input-mask": "^3.0.1",
+    "@types/react-redux": "^7.1.18",
+    "@types/react-router": "^5.1.17",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/react-router-redux": "^5.0.19",
+    "@types/react-transition-group": "^4.4.5",
+    "@types/redux": "^3.6.0",
+    "@types/redux-actions": "^2.6.2",
+    "@types/redux-saga": "^0.10.5",
+    "babel-core": "6.26.3",
+    "babel-jest": "^26.6.0",
+    "babel-loader": "8.1.0",
+    "babel-plugin-module-resolver": "4.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^11.2.3",
+    "prettier": "2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "8.0.1",
+    "stylelint-config-recommended": "3.0.0",
+    "stylelint-scss": "3.16.0",
+    "tslint": "6.1.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-react": "4.2.0"
+  }
+}

@@ -1,0 +1,42 @@
+.report-delete-modal {
+  &__wrapper {
+    padding: 32px 32px 24px 32px;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: flex-end;
+
+    & button:first-child {
+      margin-right: 8px;
+    }
+  }
+
+  &__icon {
+    margin-right: 16px;
+    margin-top: 3px;
+    @media (max-width: $sub-lm-media) {
+      display: none;
+    }
+  }
+
+  &__content {
+    margin-bottom: 24px;
+
+    & > h4 {
+      font-size: 16px;
+      line-height: 24px;
+      font-style: normal;
+      font-weight: bold;
+    }
+    & > p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}

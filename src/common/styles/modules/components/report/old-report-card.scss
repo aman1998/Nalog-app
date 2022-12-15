@@ -1,0 +1,153 @@
+.old-report-card {
+  width: 100%;
+  background: $gray-light;
+  border-radius: 6px;
+  padding: 24px;
+  margin: 16px 0;
+  cursor: pointer;
+  &__disabled{
+    p{
+      color: $gray-7 !important;
+    }
+  }
+  @media (max-width: $max-sm-media){ padding: 8px}
+
+  .old-report-card-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    .old-report-description {
+      display: flex;
+      align-items: center;
+
+      h4 {
+        margin: 0 10px 0 0;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: $gray-9;
+      }
+
+      .old-report-error {
+        color: $red-5;
+        cursor: pointer;
+      }
+
+      .old-report-forming {
+        color: $main;
+      }
+
+      span {
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: flex-end;
+        color: $gray-7;
+      }
+    }
+
+    .old-report-card-status {
+      margin-right: 20px;
+      cursor: pointer;
+    }
+
+  }
+
+  .old-report-card-body {
+    display: flex;
+    flex-direction: column;
+
+    .old-report-card-single-element {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 14px 0;
+
+      .old-report-card-title {
+        display: flex;
+        align-items: center;
+        svg{
+          min-width: 40px;
+        }
+
+        p {
+          margin-left: 20px;
+          font-family: Roboto, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 20px;
+          color: $gray-9;
+        }
+
+        @media (max-width: $max-sm-media) {
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+
+      .old-report-card-download {
+        margin: 0 20px 0 0;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.old-report-loading {
+  animation: spin 2.5s linear infinite;
+  cursor: not-allowed;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(-360deg)
+  }
+}
+
+.no-old-report {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.disabled {
+  background: $gray-2;
+  cursor: not-allowed;
+}
+
+.old-report-overlay {
+  max-width: 200px;
+}
+
+.old-report-menu_dropdown {
+  padding: 16px 0;
+  border-radius: 0 0 8px 8px;
+
+  &_delete {
+    margin-top: 24px;
+
+    & span {
+      color: $red-6;
+    }
+  }
+
+  & > li > span {
+    margin: 0 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: $red-6;
+  }
+
+  & > li:hover {
+    color: $main;
+  }
+}

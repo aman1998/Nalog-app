@@ -1,0 +1,12 @@
+@media screen and(max-width: $max-sm-media) {
+  .transaction-edit {
+    &__form {
+      &-sum {
+        width: 100%;
+      }
+      &-drop-text {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

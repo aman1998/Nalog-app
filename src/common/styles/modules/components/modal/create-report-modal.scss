@@ -1,0 +1,169 @@
+.create-report-modal {
+  &__wrapper {
+    background: $gray-2;
+  }
+
+  &__content {
+    padding: 23px 64px 23px 40px;
+    border-top: $gray-4 solid 2px;
+    &:first-child {
+      padding-top: 36px;
+      padding-bottom: 16px;
+      border: none;
+    }
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+
+    h3 {
+      margin: auto 24px auto 0;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    h4 {
+      margin-bottom: 0;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  &__fields {
+    margin-left: 24px;
+
+    &.taxpayer {
+      & > div {
+        width: 356px;
+      }
+    }
+
+    &__passport {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      & > div {
+        margin-top: 0 !important;
+        width: 172px;
+      }
+    }
+
+    &.row {
+      justify-content: left;
+      display: flex;
+      flex-direction: row;
+    }
+
+    &.column {
+      display: flex;
+      flex-direction: column;
+    }
+
+    & > div {
+      margin-top: 24px;
+    }
+
+    & > div:first-child {
+      margin-top: 0 !important;
+    }
+
+    & > div:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link-wrapper {
+    margin: 8px 0 0 24px;
+    max-width: 474px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  &__link {
+    color: $main;
+    text-decoration: underline;
+    &:hover {
+      color: $main;
+      text-decoration: underline;
+    }
+  }
+
+  &__year {
+    margin-top: 0 !important;
+    border: 1px solid $gray-5 !important;
+
+    & .ant-select-selector {
+      background: $gray-2 !important;
+      height: 40px !important;
+      display: flex;
+      align-items: center;
+      padding: 0 12px !important;
+    }
+    & .ant-select-selection-item {
+      font-size: 14px !important;
+      line-height: 22px !important;
+      font-weight: bold !important;
+      padding-right: 20px !important;
+    }
+
+    & .ant-select-arrow {
+      color: $main;
+    }
+  }
+
+  &__tax_authority {
+    margin-right: 24px !important;
+    width: 177px;
+  }
+
+  &__taxpayer__dates {
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__birth_date {
+    width: 105px;
+    margin-right: 13px;
+  }
+
+  &__birth_place {
+    margin-top: 0 !important;
+    width: 230px;
+  }
+  &__phone {
+    width: 172px !important;
+  }
+
+  &__btns {
+    padding: 0 63px 60px 63px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__btn {
+    width: 270px;
+    height: 40px;
+
+    & span {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  & .ant-modal-title {
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  &__oktmo_code {
+    margin: 0 !important;
+    width: 278px;
+  }
+}

@@ -1,0 +1,123 @@
+
+@keyframes mymove {
+  0% {left: 0;}
+  50% {left: 8px}
+  100% {left: 0;}
+}
+
+.pop-up {
+  width: 369px;
+  display: inline-block;
+  filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.3));
+  max-width: 100%;
+  opacity: 1;
+  transition: opacity 0.3s ease 0s, transform 0.2s ease 0s;
+  visibility: visible;
+  z-index: 1000;
+  padding: 0 0 0 16px;
+  will-change: transform;
+  position: fixed;
+
+  &__body {
+    animation: mymove 2s infinite;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 78px;
+      width: 16px;
+      height: 16px;
+      transform: rotate(45deg);
+      background-color: $gray-1;
+      border-top: 1px solid $gray-1;
+      border-left: 1px solid $gray-1;
+    }
+  }
+
+  &__close {
+    cursor: pointer;
+    position: absolute;
+    right: 18px;
+    top: 16px;
+    z-index: 1;
+  }
+
+  &__in-antd-model {
+    left: -120px;
+  }
+
+  &__content {
+    background-color: $gray-1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: $gray-9;
+    font-size: 16px;
+    max-width: 100%;
+    padding: 40px 24px 24px 40px;
+    position: relative;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  &__title {
+    width: 100%;
+    padding: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+  &__text {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray-7;
+  }
+}
+
+@media screen and (max-width: $max-lg-media) {
+  .pop-up {
+    &__in-antd-model {
+      left: -200px;
+    }
+  }
+}
+
+@media screen and (max-width: $max-sm-media) {
+  .pop-up {
+    animation: none;
+    &__in-antd-model {
+      top: 40px !important;
+      left: 0;
+    }
+    &__body {
+      animation: none;
+      &:before {
+        left: 20px;
+        top: 26px;
+        width: 12px;
+        height: 12px;
+      }
+    }
+    &__text {
+      width: auto;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      color: $gray-9;
+    }
+    &__content {
+      width: auto;
+      position: absolute;
+      bottom: -32px;
+      border-radius: 2px;
+      padding: 8px 12px;
+      min-width: 214px;
+      margin-bottom: 0;
+    }
+  }
+}
+

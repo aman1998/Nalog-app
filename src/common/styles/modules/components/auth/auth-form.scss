@@ -1,0 +1,61 @@
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 384px;
+  .label {
+    display: block;
+    //margin: 16px 0 0 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  &_input {
+    padding: 0 10px;
+    outline: none;
+    background: #ffffff;
+    border: 1px solid $gray-5;
+    border-radius: 2px;
+  }
+  &_btn {
+    margin-top: 16px;
+    height: 40px;
+    border-radius: 2px;
+  }
+  &_checkbox {
+    color: $gray-9;
+    font-size: 14px;
+    line-height: 22px;
+    .checkbox-link {
+      color: $main;
+      text-decoration: underline;
+    }
+    .checkbox-link:hover {
+      color: $blue-3;
+    }
+  }
+  .checkboxError {
+    color: $red-5;
+    .ant-checkbox-inner {
+      border: 1px solid $red-5 !important;
+    }
+  }
+  &_forgot-remember {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 22px;
+    .text {
+      cursor: pointer;
+      font-weight: 500;
+      color: $main;
+      text-decoration: underline;
+    }
+    .text:hover {
+      color: $blue-3;
+    }
+  }
+  ._signInputError {
+    border-color: $red-5;
+  }
+}

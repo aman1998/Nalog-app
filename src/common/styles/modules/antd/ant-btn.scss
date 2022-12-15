@@ -1,0 +1,25 @@
+.ant-btn-primary {
+  background: $main;
+  text-shadow: none;
+  &:focus {
+    color: $gray-1;
+    background-color: $main;
+    border-color: $main;
+  }
+
+  &:hover {
+    background: $blue-2;
+    color: $gray-1;
+  }
+}
+
+.ant-btn-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 144%;
+  color: $gray-8;
+  &:hover {
+    background: $gray-2;
+    color: $gray-9;
+  }
+}

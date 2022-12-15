@@ -1,0 +1,53 @@
+.crypto-item {
+  &_wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 16px 8px 12px;
+  }
+
+  &_icon {
+    margin-top: 5px;
+    margin-right: 8px;
+  }
+
+  &_balance {
+    margin-left: auto;
+    text-align: right;
+
+    &_crypto {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: right;
+      color: $gray-9;
+    }
+
+    &_usd {
+      font-size: 14px;
+      line-height: 18px;
+      text-align: right;
+      color: $gray-7;
+    }
+  }
+
+  &_name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray-9;
+  }
+
+  &_transactions {
+    font-size: 14px;
+    line-height: 18px;
+    color: $gray-7;
+  }
+}
+
+@media screen and (max-width: $max-sm-media) {
+  .crypto-item {
+    &_wrapper {
+      padding: 8px 9px 8px 5px;
+    }
+  }
+}

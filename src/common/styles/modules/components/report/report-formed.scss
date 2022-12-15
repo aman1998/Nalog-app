@@ -1,0 +1,212 @@
+.report-formed {
+  padding-top: 132px;
+  &__content {
+    display: flex;
+  }
+  &__actions {
+    margin-top: 40px;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: $gray-9;
+  }
+  &__date {
+    margin-bottom: -2.5px; // need correct in figma
+    margin-left: 16px;
+    font-size: 12px;
+    line-height: 20px;
+    color: $gray-8;
+  }
+  &__delete-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    p {
+      margin-left: 10px;
+      font-size: 16px;
+      line-height: 22px;
+      color: $red-6;
+    }
+  }
+  &__btn {
+    margin: 40px 0 24px 0;
+    background: $main;
+    height: 40px;
+    width: 282px;
+  }
+  &__loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    &-text {
+      position: absolute;
+      width: 310px;
+      top: 24px;
+      text-align: center;
+      left: -155px;
+    }
+  }
+  .report-download {
+    margin-bottom: 32px;
+    padding: 24px 24px 10px 24px;
+    width: 588px;
+    background: $gray-1;
+    border: 1px solid $gray-5;
+    border-radius: 6px;
+    &__title-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__title {
+      margin-bottom: 20px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: $gray-9;
+    }
+    &__item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+      &-logo {
+        width: 40px;
+        height: 40px;
+        svg {
+          width: 40px !important;
+          height: 40px !important;
+        }
+        & .default-doc-icon {
+          position: relative;
+          & .name {
+            position: absolute;
+            top: 15px;
+            right: 12px;
+            width: 24px;
+            height: 11.8px;
+            color: $gray-1;
+            border-radius: 1px;
+            font-size: 8px;
+            text-align: center;
+            text-transform: uppercase;
+          }
+        }
+      }
+      &-name {
+        margin: 0 16px 0 20px;
+        font-size: 16px;
+        line-height: 20px;
+        color: $gray-9;
+      }
+      &-download {
+        margin-left: auto;
+      }
+    }
+    &__line {
+      text-align: center;
+      margin-top: 4px;
+      padding-top: 10px;
+      border-top: 1px solid $gray-5;
+      color: $main;
+      cursor: pointer;
+    }
+  }
+  .report-calculations {
+    margin-top: 40px;
+    margin-left: 76px;
+    &__texts {
+      display: flex;
+      flex-direction: column;
+    }
+    &__operations {
+      display: block;
+      margin-bottom: 27px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      svg {
+        margin-left: 13px;
+        transform: rotate(180deg)
+      }
+    }
+    &__link {
+      color: $main;
+      &:hover {
+        border-bottom: 1px solid $main;
+      }
+    }
+    &__text {
+      margin-bottom: 16px;
+      font-size: 16px;
+      line-height: 18px;
+      color: $gray-8;
+
+      a {
+        color: $main;
+        &:hover {
+          border-bottom: 1px solid $main;
+        }
+      }
+    }
+    &__title {
+      display: flex;
+      align-items: center;
+      margin: 44px 0;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 18px;
+      text-transform: uppercase;
+    }
+    &__remaining-day {
+      margin-left: 4px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: $main;
+    }
+    &__item-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__item {
+      width: 50%;
+      &--tax_base, &--tax_amount {
+        margin-top: 44px;
+      }
+      &-header {
+        display: flex;
+        align-items: inherit;
+        margin-top: 4px;
+        &-title {
+          margin-right: 4px;
+          font-size: 16px;
+          line-height: 18px;
+          color: $gray-8;
+        }
+        svg {
+          cursor: pointer;
+          width: 16px;
+          height: 16px;
+          path {
+            fill: $gray-6;
+          }
+        }
+      }
+      &-count {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: $gray-9;
+        &--tax_amount {
+          color: $green-3;
+        }
+      }
+    }
+  }
+}

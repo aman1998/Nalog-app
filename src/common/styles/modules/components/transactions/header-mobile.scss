@@ -1,0 +1,64 @@
+.transactions-header__mobile {
+  position: relative;
+
+  .filter-logo-wrapper {
+    @include FlexCenter;
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: $header-index;
+  }
+  .filter-logo {
+    @include FlexCenter;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    &--plus {
+      margin-left: 16px;
+    }
+    svg {
+      @include FlexCenter;
+      width: 18px;
+      height: 18px;
+    }
+  }
+  .filter-list {
+    overflow: scroll;
+    white-space: nowrap;
+
+    &__item {
+      display: flex;
+      align-items: center;
+      margin-right: 9px;
+      p {
+        margin-right: 5px;
+        color: $gray-7;
+        font-size: 12px;
+        line-height: 24px;
+      }
+      div {
+        @include FlexCenter;
+        background: $gray-6;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        cursor: pointer;
+        svg {
+          width: 6px;
+          height: 6px;
+          path {
+            fill: $gray-1;
+          }
+        }
+      }
+    }
+  }
+  .isFilterActive {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height: 56px;
+    background: $gray-2;
+    border-radius: 0 0 4px 4px;
+  }
+}

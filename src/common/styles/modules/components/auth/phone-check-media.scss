@@ -1,0 +1,33 @@
+@media screen and (max-width: $sm-media) {
+  .check,
+  .sign-forgot {
+    padding-top: 60px;
+    height: 316px;
+    svg {
+      top: 5px;
+      left: 4px;
+    }
+
+    &_title {
+      padding-top: 0; // 80-32
+      margin-bottom: 40px;
+      font-size: 20px;
+      line-height: 40px;
+    }
+
+    &_text {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    &_input {
+      padding-left: calc((100% - 120px) / 2);
+      margin: 0 0 40px 0;
+      width: 100%;
+    }
+
+    &_icon {
+      left: 0;
+    }
+  }
+}

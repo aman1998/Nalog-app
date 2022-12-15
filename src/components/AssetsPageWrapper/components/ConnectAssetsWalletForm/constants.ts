@@ -1,0 +1,1 @@
+export const MAX_VALUES_BLOCKCHEINS_COUNT = 5;

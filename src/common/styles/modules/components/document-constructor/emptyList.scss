@@ -1,0 +1,19 @@
+.create-document {
+  @include Transition;
+
+  &__empty-list {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    max-width: 520px;
+    height: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray-9;
+    a, span {
+      color: $main;
+      cursor: pointer;
+      border-bottom: 1px solid $main;
+    }
+  }
+}

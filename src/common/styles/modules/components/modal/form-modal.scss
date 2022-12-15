@@ -1,0 +1,24 @@
+.connect-modal_form {
+  padding: 0 24px;
+  .label {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  input {
+    height: 40px;
+    width: 100%;
+  }
+  button {
+    margin: 24px 0 16px 0;
+    width: 100%;
+    height: 40px;
+    background: $main;
+    color: $gray-1;
+  }
+  ._typeAssetsBtn {
+    background: #f3f4f9;
+    color: $gray-6;
+  }
+  ._typeWalletsBtn {
+  }
+}

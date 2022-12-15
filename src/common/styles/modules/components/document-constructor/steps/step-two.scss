@@ -1,0 +1,165 @@
+.create-document__step-two  {
+  background: $gray-light;
+  &__header {
+    &-text {
+      margin: 24px 0;
+      font-size: 16px;
+      line-height: 24px;
+      color: $gray-8;
+    }
+    &-checkbox-text {
+      margin-left: 8px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: $gray-9;
+      border-bottom: 1px solid $gray-9;
+    }
+  }
+  &__add-btn-wrapper {
+    display: none;
+  }
+  &__filter {
+    @include Transition;
+    background: $gray-light;
+    margin-top: 16px;
+    padding: 8px 0;
+    z-index: 3;
+    display: flex;
+    flex-wrap: wrap;
+
+    .select {
+      margin-right: 16px;
+      width: 196px;
+    }
+    .date-picker {
+      margin-right: 24px;
+      width: 215px;
+    }
+    &__btn {
+      background: inherit;
+      font-weight: 400;
+
+      color: $main;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 22px;
+
+      &:hover {
+        text-decoration-line: underline;
+      }
+
+    }
+    &_counter {
+      margin-top: 26px;
+      margin-bottom: 24px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: $gray-8;
+    }
+  }
+  &__header-mobile {
+    .filter-logo-wrapper {
+      @include FlexCenter;
+      position: fixed;
+      top: 16px;
+      left: 46px;
+      z-index: $header-index;
+    }
+    .filter-logo {
+      @include FlexCenter;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      &--plus {
+        margin-left: 16px;
+      }
+      svg {
+        @include FlexCenter;
+        width: 18px;
+        height: 18px;
+      }
+    }
+    .filter-list {
+      overflow: scroll;
+      white-space: nowrap;
+
+      &__item {
+        display: flex;
+        align-items: center;
+        margin-right: 9px;
+        p {
+          margin-right: 5px;
+          color: $gray-7;
+          font-size: 12px;
+          line-height: 24px;
+        }
+        div {
+          @include FlexCenter;
+          background: $gray-6;
+          width: 14px;
+          height: 14px;
+          border-radius: 50%;
+          cursor: pointer;
+          svg {
+            width: 6px;
+            height: 6px;
+            path {
+              fill: $gray-1;
+            }
+          }
+        }
+      }
+    }
+    .isFilterActive {
+      display: flex;
+      align-items: center;
+      padding-left: 15px;
+      height: 56px;
+      background: $gray-2;
+      border-radius: 0 0 4px 4px;
+    }
+  }
+  &__add-btn {
+    @include TransparentBtn;
+  }
+  &__tabs-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: -24px;
+
+    .ant-tabs-nav {
+      margin-bottom: 0 !important;
+    }
+    .ant-tabs-tab-btn {
+      color: $gray-9;
+      &:hover {
+        color: $blue-2 !important;
+      }
+    }
+
+    .ant-tabs-tab-disabled {
+      .ant-tabs-tab-btn {
+        color: $gray-6;
+        &:hover {
+          color: $gray-6 !important;
+        }
+      }
+    }
+
+    .ant-tabs-tab-active {
+      .ant-tabs-tab-btn {
+        color: $main;
+      }
+    }
+
+    .ant-tabs-nav-wrap {
+      &::after, &::before {
+        content: none !important;
+      }
+    }
+  }
+}

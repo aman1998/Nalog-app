@@ -1,0 +1,74 @@
+
+.dashboard-transactions {
+  width: 100%;
+
+  &.dashboard-card {
+    border-radius: 50px 8px 50px 50px;
+  }
+  & .dashboard-card__title {
+    text-align: center;
+  }
+
+  &-empty {
+    position: relative;
+    padding: 82px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    &__spinner {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  &__btn {
+    padding: 11px;
+    width: 100%;
+
+    background: $gray-1;
+    color: $main;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0 0 50px 50px;
+    border: 1px solid $gray-3;
+
+    &:hover {
+      background: $gray-light;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media screen and (max-width: $max-sm-media) {
+  .dashboard-transactions {
+
+    &.dashboard-card {
+      border-radius: 8px;
+    }
+    & .dashboard-card__title {
+      background-color: $gray-1;
+      border: 1px solid $gray-3;
+      border-bottom: none;
+      text-align: left;
+    }
+
+    & .transactions-item {
+      background-color: $gray-1;
+      border: 1px solid $gray-3;
+      &:first-child {
+        border-top: none;
+      }
+    }
+    &-empty {
+      padding: 40px;
+    }
+    &__btn {
+      background-color: $gray-light;
+      border-radius: 0 0 8px 8px;
+      border: none;
+    }
+  }
+}

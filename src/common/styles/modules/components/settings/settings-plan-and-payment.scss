@@ -1,0 +1,338 @@
+.settings-plan-and-payment {
+  &__tariff {
+    position: relative;
+    border: 1px solid $gray-2;
+    max-width: 476px;
+    margin-top: 24px;
+    padding: 8px 16px;
+    background: $gray-light;
+    border-radius: 4px;
+    &__inner-wrapper {
+      display: flex;
+      flex-direction: column;
+      &.will-be-activate {
+        opacity: 0.5;
+      }
+    }
+    .will-be-activate &__expiration-date {
+      color: $green-3;
+    }
+    &__title {
+      color: $gray-9;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__expiration-date {
+      color: $gray-7;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    &__progress {
+      width: 222px;
+      margin-top: 14px;
+    }
+    &__dropdown {
+      position: absolute;
+      top: -1px;
+      right: -1px;
+      z-index: 2;
+      & .ant-dropdown-trigger {
+        &:hover {
+          svg, path {
+            fill: $main;
+          }
+        }
+      }
+    }
+    &__menu {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+      border-radius: 0 0 8px 8px;
+      li {
+        width: 216px;
+        padding: 10px 8px 10px 24px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+      }
+      &__unsubscribe {
+        color: $red-6;
+      }
+    }
+    &__upgrade-btn {
+      height: 38px;
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      span {
+        color: $gray-9
+      }
+    }
+    &__will-be-activate-btn {
+      background: $gray-2 !important;
+      height: 38px;
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+      opacity: 1.5;
+      span {
+        color: $main
+      }
+    }
+  }
+  &__payment-method {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    max-width: 476px;
+    &__title {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 144%;
+      color: $gray-7;
+    }
+    &__radio-group {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    &__radio {
+      margin: 0;
+      padding: 8px 16px 8px 14px;
+      border-bottom: 1px solid $gray-4;
+      & > span:not(.ant-radio) {
+        float: left;
+        flex-grow: 100;
+        display: flex;
+        justify-content: space-between;
+      }
+      &__title {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 144%;
+      }
+      &__delete {
+        &.transparent {
+          padding: 0;
+          height: 20px;
+          border: none;
+          span {
+            color: $gray-7;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 144%;
+          }
+          &:hover {
+            color: $gray-7;
+            background-color: $gray-1;
+            border-color: $gray-1;
+          }
+        }
+        &__wrapper {
+          padding-right: 8px;
+        }
+      }
+    }
+    &__add-card {
+      float: right;
+      &.no-options {
+        float: left;
+      }
+      &.transparent {
+        padding: 0;
+        border: none;
+        height: 20px;
+        span {
+          color: $main;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 144%;
+        }
+        &:hover {
+          color: $main;
+          background-color: $gray-1;
+          border-color: $gray-1;
+        }
+      }
+      &.widthIconButton {
+        svg, path {
+          width: 14px;
+          height: 14px;
+          fill: $main;
+        }
+      }
+      &__wrapper {
+        margin-top: 16px;
+        padding-right: 16px;
+      }
+    }
+  }
+  &__purchase-history {
+    max-width: 476px;
+    margin-top: 40px;
+    &__title {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 144%;
+      color: $gray-7;
+    }
+    &__options {
+      min-height: 120px;
+      margin-top: 8px;
+    }
+    &__options__modal {
+      .default-modal__content {
+        padding: 24px 16px 32px 16px;
+      }
+    }
+    &__option {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 16px;
+      border-bottom: 1px solid $gray-4;
+      &:nth-child(2n) {
+        background: $gray-light;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      div > span {
+        &:first-child {
+          padding-right: 8px;
+          margin-right: 80px;
+        }
+        &:last-child {
+          padding: 0 8px;
+        }
+      }
+      span {
+        //padding: 0 8px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 144%;
+        &:last-child {
+          padding-left: 8px;
+        }
+      }
+    }
+    &__see-all {
+      float: right;
+      &.transparent {
+        padding: 0;
+        border: none;
+        height: 20px;
+        span {
+          color: $main;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 144%;
+        }
+        &:hover {
+          color: $main;
+          background-color: $gray-1;
+          border-color: $gray-1;
+        }
+      }
+      &.widthIconButton {
+        svg, path {
+          width: 14px;
+          height: 14px;
+          fill: $main;
+        }
+      }
+      &__wrapper {
+        margin-top: 16px;
+        padding-right: 16px;
+      }
+    }
+
+    &__show-more {
+      width: 100%;
+
+      &__wrapper {
+        margin-top: 16px;
+        width: 100%;
+      }
+      &__skeleton {
+        height: 40px !important;
+        width: 100% !important;
+        border: 0.5px solid $gray-5;
+      }
+    }
+  }
+}
+
+@media screen and(max-width: $max-xs-media) {
+  .settings-plan-and-payment {
+    &__tariff {
+      margin-top: 16px;
+      max-width: 100%;
+      background: $gray-1;
+      &__progress {
+        width: 100%;
+      }
+      &__will-be-activate-close-icon {
+        cursor: pointer;
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        top: 8px;
+        right: 8px;
+      }
+    }
+    &__payment-method {
+      max-width: 100%;
+      &__radio {
+        padding: 8px 0;
+      }
+      &__add-card {
+        &__wrapper {
+          margin-top: 16px;
+          padding-right: 0;
+        }
+      }
+    }
+    &__purchase-history {
+      max-width: 100%;
+      &__option {
+        padding: 8px 0;
+
+        div > span {
+          &:first-child {
+            margin-right: 40px;
+          }
+        }
+      }
+      &__add-card {
+        &__wrapper {
+          margin-top: 16px;
+          padding-right: 0;
+        }
+      }
+      &__see-all {
+        &__wrapper {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width: $sub-lm-media) {
+  .settings-plan-and-payment {
+    &__purchase-history {
+      &__option {
+        div > span {
+          &:first-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}

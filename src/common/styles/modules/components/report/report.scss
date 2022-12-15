@@ -1,0 +1,106 @@
+.report {
+  display: flex;
+  justify-content: space-between;
+
+  &-preloader {
+    @include FlexCenter;
+    position: relative;
+    height: 50%;
+  }
+
+  &-left-side {
+    width: 50%;
+
+    &__remaining-payment {
+      display: none;
+    }
+
+    hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid $gray-4;
+      margin: 1em 0;
+      padding: 0;
+    }
+
+    .report-count {
+      font-family: Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: $gray-9;
+      background: $gray-4;
+      padding: 5px 12px;
+      border-radius: 50%;
+      margin-left: 10px;
+    }
+  }
+
+  &-right-side {
+    .payment-types {
+      position: absolute;
+      top: 24px;
+      left: 230px;
+      width: 212px;
+      height: 138px;
+    }
+
+    .report-credit-card {
+      z-index: 1;
+      background: $blue-3;
+      border-radius: 20px;
+      width: 486px;
+      height: 288px;
+      position: relative;
+
+      img{
+        position: absolute;
+        top: 24px;
+        z-index: -1;
+        left: 240px;
+      }
+
+      h2 {
+        font-family: Roboto, sans-serif;
+        z-index: 1;
+        font-style: normal;
+        padding: 24px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 36px;
+        color: $gray-1;
+        width: 60%;
+      }
+
+      ul {
+        padding: 0 24px 24px 24px;
+        list-style: inside;
+
+        li {
+          font-family: Roboto, sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          margin: 10px 0;
+          line-height: 21px;
+          color: $gray-1;
+        }
+      }
+      @media (max-width: $max-sm-media) {
+        display: none;
+      }
+
+    }
+  }
+}
+
+.report-ready {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  >div{
+    display: flex;
+  }
+  margin-bottom: 34px;
+}

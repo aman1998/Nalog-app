@@ -1,0 +1,43 @@
+.ant-picker-ranges > .ant-picker-preset > .ant-tag,.ant-tag-blue {
+  color: $main;
+  background: none;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  @include Transition;
+  &:hover {
+    background-color: $gray-light;
+  }
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+  background: $main;
+}
+
+.ant-picker-range .ant-picker-active-bar {
+  background: $main;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+  border: 1px solid $main;
+}
+
+.ant-picker:hover, .ant-picker-focused {
+  border-color: $main;
+  border-right-width: 1px !important;
+}
+.ant-picker-today-btn {
+  color: $main;
+}
+.ant-picker-today-btn:hover {
+  color: $blue-2;
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: $main;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(153,	172,	242, .2);
+}

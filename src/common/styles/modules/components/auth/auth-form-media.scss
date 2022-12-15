@@ -1,0 +1,10 @@
+@media screen and (max-width: $sm-media) {
+  .sign-form {
+    margin: 0;
+    max-width: 100%;
+    .label {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}

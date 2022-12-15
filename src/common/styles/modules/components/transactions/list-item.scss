@@ -1,0 +1,41 @@
+@media screen and(max-width: $max-lg-media) {
+  .transactions-list {
+    &__add-btn {
+      margin-right: 15px;
+    }
+    &__title {
+      &-wrapper {
+        margin: 24px 0 28px 15px;
+      }
+      font-size: 20px;
+      line-height: 28px;
+    }
+    &__item-wrapper {
+      border-top: none;
+      border-radius: 0;
+    }
+  }
+}
+
+@media screen and(max-width: $max-sm-media) {
+  .transactions-list {
+    &__add-btn {
+      display: none;
+    }
+    &__title {
+      &-wrapper {
+        @include FlexCenter;
+        margin: 18px auto;
+      }
+      padding: 0 8px;
+      font-size: 12px;
+      line-height: 20px;
+      background: $main;
+      border-radius: 100px;
+      color: $gray-1;
+    }
+    &__item-wrapper {
+      background: $gray-1;
+    }
+  }
+}

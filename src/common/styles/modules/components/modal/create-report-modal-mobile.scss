@@ -1,0 +1,103 @@
+@media screen and (max-width: $max-sm-media) {
+  .create-report-modal {
+    &__content {
+      padding: 16px 24px 16px 24px;
+      border-top: none;
+      border-top: $gray-4 solid 2px;
+      &:first-child {
+        padding-top: 24px;
+      }
+    }
+    &__header {
+      h3 {
+        display: none;
+      }
+      h4 {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+    &__year {
+      margin-top: 0 !important;
+    }
+    &__link-wrapper {
+      margin-left: 0;
+    }
+    &__fields {
+      margin-left: 0;
+      &.row {
+        flex-direction: column;
+      }
+      &.taxpayer {
+        & > div {
+          width: auto;
+        }
+      }
+      &__passport {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 16px;
+
+        & > div {
+          margin-top: 16px;
+          width: 148px;
+        }
+      }
+      & > div {
+        margin-top: 16px;
+      }
+    }
+    &__tax_authority {
+      margin-bottom: 16px !important;
+      width: 177px;
+    }
+    &__oktmo_code {
+      width: 177px;
+    }
+    &__taxpayer__dates {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      row-gap: 16px;
+      column-gap: 10px;
+    }
+    &__birth_place {
+      width: 194px;
+    }
+    &__phone {
+      width: auto !important;
+    }
+    &__btn {
+      width: 270px;
+    }
+    &__btns {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      padding: 16px 45px 24px 45px;
+    }
+  }
+}
+
+@media screen and (max-width: $md-xs-media) {
+  .create-report-modal {
+    &__fields {
+      & > div {
+        width: 100%;
+      }
+      &__passport {
+        & > div {
+          width: 100%;
+        }
+      }
+    }
+    &__birth_date {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    &__birth_place {
+      width: 100%;
+    }
+  }
+}

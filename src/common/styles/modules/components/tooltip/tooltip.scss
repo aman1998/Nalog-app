@@ -1,0 +1,14 @@
+.tooltip {
+  &-title {
+    display: flex;
+    color: $gray-9;
+
+    svg {
+      margin-top: 3px;
+      flex: 0 0 auto;
+      width: 16px;
+      height: 16px;
+      margin-right: 8px;
+    }
+  }
+}

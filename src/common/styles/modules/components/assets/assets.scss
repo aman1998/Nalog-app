@@ -1,0 +1,112 @@
+.assets {
+  @include Scroll;
+  display: flex;
+  &-page {
+    display: flex;
+    align-items: center;
+  }
+  &-title_wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  &-title {
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  &-count {
+    @include FlexCenter;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    background: $gray-4;
+  }
+  &-btn {
+    margin-bottom: 25px;
+    height: 40px;
+    width: 282px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .search-wrapper {
+    margin-bottom: 25px;
+    max-width: 282px;
+    .search-input {
+      width: 100% !important;
+      height: 100%;
+      border-radius: 4px 0 0 4px;
+    }
+  }
+  &-list_wrapper {
+    display: flex;
+    max-height: 100%;
+  }
+  &-list_line {
+    width: 1px;
+    background: $gray-4;
+  }
+  &-list {
+    position: relative;
+    width: 303px;
+    max-height: 100vh;
+    overflow-y: scroll;
+    margin-right: 2px;
+    min-height: 200px;
+    .empty-text {
+      padding: 0 20px;
+      margin-top: 100px;
+      text-align: center;
+      width: 100%;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 10px;
+    width: 282px;
+    height: 60px;
+    background: $gray-3;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &-logo {
+      margin-right: 4px;
+      padding: 4px;
+      width: 40px;
+      height: 40px;
+    }
+    .item-title {
+      margin-bottom: 0;
+      font-size: 16px;
+      line-height: 24px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    &.active {
+      border: 1px solid $main;
+    }
+  }
+  &-preloader {
+    display: flex;
+    justify-content: center;
+  }
+  &-content {
+    display: flex;
+    padding-left: 40px;
+    justify-content: center;
+    max-width: calc(100% - 315px);
+    width: 100%;
+    font-size: 16px;
+    line-height: 19px;
+    color: $gray-9;
+  }
+}

@@ -1,0 +1,120 @@
+.upload-operations-page {
+  display: flex;
+}
+.upload-operations {
+  &__step-two {
+    padding: 24px 0;
+    &__row {
+      width: 100%;
+      padding-bottom: 32px;
+      &__title {
+        padding-bottom: 8px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        &.types {
+          padding-bottom: 24px;
+        }
+      }
+    }
+    &__range-date-picker, &__document-language {
+      width: 282px;
+    }
+    &__all-check {
+      width: 100%;
+      margin-bottom: 24px;
+      &-text {
+        margin-left: 8px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: $gray-9;
+        border-bottom: 1px solid $gray-9;
+      }
+    }
+    &__check-wrapper {
+      display: inline-flex;
+      align-content: flex-start;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 350px;
+      max-width: 918px; // 894 + 24
+      width: 100%;
+    }
+  }
+  &__step-three {
+    height: 100%;
+    &.isEmpty {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__transactions {
+      .transactions-list__title-wrapper:first-child {
+        margin-top: 24px;
+      }
+    }
+    &__sub-title {
+      margin: 24px 0;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__empty-list {
+      text-align: center;
+      width: 450px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  &__types-card {
+    align-self: flex-start;
+    cursor: pointer;
+    margin-right:24px;
+    width: 282px;
+    height: 40px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 10px 7px 16px;
+    background: $gray-1;
+    border: 1px solid $gray-5;
+    border-radius: 4px;
+    &__title {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+@media screen and(max-width: $max-sm-media) {
+  .upload-operations {
+    &__step-two {
+      &__row {
+        &__title {
+          padding-bottom: 16px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          &.types {
+            padding-bottom: 24px;
+          }
+        }
+      }
+
+      &__range-date-picker, &__document-language {
+        width: 100%;
+      }
+      &__check-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        height: auto;
+      }
+    }
+    &__types-card {
+      width: 100%;
+    }
+  }
+}

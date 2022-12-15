@@ -1,0 +1,109 @@
+.drawer {
+  @include Scroll;
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  .ant-drawer-mask {
+    height: 100vh !important;
+    background: inherit !important;
+  }
+  .ant-drawer-body {
+    background: $gray-3;
+    padding: 0;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+  }
+  &-logo {
+    margin: 32px 0 64px 40px;
+  }
+  ._drawerLogoMobile {
+    text-align: center;
+    margin: 16px 0 56px 0;
+  }
+  &-nav {
+    .nav-item {
+      margin-bottom: 24px;
+      height: 48px;
+      &_link {
+        display: flex;
+        align-items: center;
+        padding: 14px 25px;
+        .link-text {
+          display: flex;
+          align-items: center;
+          margin-left: 18px;
+          font-size: 18px;
+          line-height: 22px;
+          height: 24px;
+        }
+        .link-logo {
+          display: flex;
+          align-items: center;
+          width: 24px;
+          height: 24px;
+        }
+      }
+      &_link-active {
+        background: $gray-2;
+        color: $main;
+        border-right: 3px solid $main;
+        path {
+          fill: $main;
+        }
+      }
+      .nav-username {
+        text-align: center;
+        margin: 56px 0;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray-7;
+      }
+    }
+    .nav-item--exit {
+      margin-top: 62px; // 86 - 24
+      cursor: pointer;
+      .link-text {
+        margin-left: 18px !important;
+      }
+    }
+    .submenu-nav-item {
+      background: inherit;
+      .ant-menu-title-content {
+        display: flex;
+        align-items: center;
+        margin-left: 18px;
+        font-size: 18px;
+        line-height: 22px;
+        height: 24px;
+      }
+      .ant-menu {
+        background: inherit;
+        .nav-item_link {
+          margin-bottom: 8px;
+        }
+      }
+      .ant-menu-submenu-title {
+        margin-bottom: 8px !important;
+      }
+      .ant-menu-submenu-active {
+        .ant-menu-title-content {
+          color: $gray-9;
+          transition: none;
+        }
+      }
+      .link-logo {
+        display: flex;
+        align-items: center;
+        width: 24px;
+        height: 24px;
+      }
+      .link-text {
+        margin-left: 42px;
+      }
+    }
+  }
+  &-close {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+  }
+}

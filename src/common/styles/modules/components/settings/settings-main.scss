@@ -1,0 +1,50 @@
+.settings-main {
+  .language-item {
+    padding-top: 0;
+  }
+  &__select-language {
+    width: 296px;
+    margin-top: 16px;
+  }
+  &__time-zone {
+    display: flex;
+    &__selector {
+      margin-right: 24px;
+      width: 296px;
+    }
+    &__current-time {
+      margin-top: 35px;
+      &__text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: $gray-9;
+      }
+      &__timer {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: $pink;
+      }
+    }
+  }
+  &__time-formats {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    &__select {
+      &:not(:first-child) {
+        margin-top: 0;
+      }
+      &:first-child {
+        margin-right: 24px;
+      }
+      width: 211px;
+    }
+  }
+  &__currency {
+    &__select {
+      width: 296px;
+    }
+  }
+}

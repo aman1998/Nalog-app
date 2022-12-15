@@ -1,0 +1,32 @@
+.page-not-found {
+  height: calc(100vh - 160px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -70px;
+  span h5 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: $gray-6;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .page-link {
+    background: $main;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 16px;
+    width: 282px;
+    color: $gray-1;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+}

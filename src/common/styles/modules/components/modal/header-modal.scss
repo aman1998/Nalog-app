@@ -1,0 +1,51 @@
+.header-modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  background: $gray-2;
+  height: 76px;
+  &__closeIcon,
+  &__backIcon {
+    @include FlexCenter;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    &--no-cursor {
+      cursor: auto;
+    }
+  }
+  &__title {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  &__sub-title {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 14px;
+    line-height: 18px;
+    color: $gray-7;
+  }
+}
+
+// need delete this styles when bind-modal remove to ModalLayout component
+.bind-header-modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 12px 24px 15px;
+  background: $gray-2;
+  &_closeIcon,
+  &_backIcon {
+    @include FlexCenter;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+  }
+  &_title {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

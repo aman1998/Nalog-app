@@ -1,0 +1,104 @@
+.dashboard-assets {
+  width: 384px;
+  @include DashboardCup;
+  &__cap {
+    &__content {
+      top: 193px;
+    }
+  }
+  &-item:not(:first-child) {
+    border-top: 1px solid $gray-3;
+  }
+  &-item {
+    height: 58px;
+    align-items: center;
+    padding: 8px 16px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+
+    &__crypto {
+      display: flex;
+      align-items: center;
+    }
+
+    &__name {
+      margin-left: 8px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__amounts {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+    }
+    &__amount {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__value_rub {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      color: $gray-7;
+    }
+  }
+  &__all-btn {
+    height: 40px;
+    padding: 11px;
+    width: 100%;
+    overflow: hidden;
+
+    background: $gray-1;
+    color: $gray-6;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    border: none;
+    border-top: 1px solid $gray-3;
+    border-radius: 0 0 8px 8px;
+    &:hover {
+      background: $gray-light;
+    }
+    &.active {
+      cursor: pointer;
+      color: $main;
+    }
+  }
+  &-modal {
+    & .header-modal {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    & .default-modal__content {
+      padding: 0;
+    }
+
+    & .default-modal__form{
+      overflow: scroll;
+      height: 540px;
+      padding: 24px;
+    }
+  }
+  &-skeleton {
+    padding: 8px 16px 10px 16px;
+  }
+}
+
+@media screen and (max-width: $max-sm-media) {
+  .dashboard-assets {
+    width: 100%;
+    &__cap {
+      &__content {
+        top: 67px;
+      }
+    }
+    &-modal {
+      & .default-modal__form{
+        padding: 8px 0;
+        height: 450px;
+      }
+    }
+  }
+}

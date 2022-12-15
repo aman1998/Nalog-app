@@ -1,0 +1,35 @@
+.progress-info {
+  margin-bottom: 8px;
+  &__top {
+    margin-bottom: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: $gray-9;
+  }
+  &__unit {
+    color: $gray-8;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    &.no-limit {
+      color: $pink;
+    }
+  }
+}
+
+.ant-progress {
+  height: 4px;
+  display: block;
+}
+.ant-progress-inner {
+  top: -10px;
+}
+
+.ant-progress-bg {
+  height: 4px !important;
+}

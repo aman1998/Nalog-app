@@ -1,0 +1,40 @@
+.note {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 188px;
+  max-height: 48px;
+  min-height: 32px;
+  padding: 8px 8px 8px 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $gray-8;
+  background:linear-gradient(45deg, transparent 7px, $light-yellow 0);
+  &.one-line {
+    @include Ellipsis;
+  }
+  &::after {
+    content: '';
+    z-index: 1;
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0;
+    bottom: 0; /* Положение треугольника */
+
+    border: 5px solid transparent;
+    border-top: 5px solid #E8E9F0;
+    border-right: 5px solid #E8E9F0;
+  }
+  &__tooltip {
+    .ant-tooltip-arrow-content {
+      background-color: $gray-1;
+    }
+    .ant-tooltip-inner {
+      background-color: $gray-1;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 144%;
+      color: $gray-9;
+    }
+  }
+}

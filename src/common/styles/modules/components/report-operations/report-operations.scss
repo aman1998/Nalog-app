@@ -1,0 +1,18 @@
+.report-operations {
+  background: $gray-1;
+
+  &__header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    background: $gray-2;
+    &_title {
+      margin-top: 26px;
+      margin-bottom: 27px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 32px;
+      color: $gray-9;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+._isPhoneCheckForm {
+  height: auto !important;
+}
+.check-form {
+  display: flex;
+  flex-direction: column;
+  .sign-forgot_timer {
+    margin-top: 40px;
+  }
+}
+.check,
+.sign-forgot {
+  position: relative;
+  width: 100%;
+  color: $gray-9;
+
+  &_icon {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 7px;
+    left: 43px; // 50-10
+    width: 24px;
+    height: 24px;
+    svg {
+      cursor: pointer;
+      width: 12px;
+      height: 20px;
+      fill: $main;
+      path {
+        width: 12px;
+        height: 20px;
+      }
+    }
+  }
+
+  &_title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: $gray-9;
+  }
+
+  &_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    color: $gray-9;
+
+    span {
+      color: $gray-7;
+    }
+  }
+
+  &_input {
+    text-align: left !important;
+    padding: 16px 0 16px calc((300px - 120px) / 2);
+    margin: 0 auto !important;
+    width: 300px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 24px;
+    outline: none;
+    background: #ffffff;
+    border-radius: 2px;
+    letter-spacing: 11px;
+    &::placeholder {
+      letter-spacing: 11px;
+    }
+  }
+
+  .code-validate {
+    text-align: center;
+  }
+
+  &_timer {
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+    color: $gray-7;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+  }
+
+  .isTimerEnd {
+    color: $main;
+  }
+}

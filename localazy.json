@@ -1,0 +1,23 @@
+{
+  "writeKey": "a8208213688548549274-5f546d18a75d2f4e0fd2f7d5e29d2f1e7b9c06bce779339addd03b134ce4493d",
+  "readKey": "a8208213688548549274-9c0cbfc2114c0387ecb620575724b9284bd3fa00f4d11266805b3a430e3418b4",
+  "upload": {
+    "type": "json",
+    "deprecateMissing": false,
+    "files": [
+      {
+        "pattern": "public/locales/ru-RU/translation.json",
+        "lang": "inherited"
+      },
+      {
+        "group": "existing",
+        "pattern": "public/locales/*/translation.json",
+        "excludes": ["public/locales/ru-RU/translation.json"],
+        "lang": "${autodetectLang}"
+      }
+    ]
+  },
+  "download": {
+    "files": "public/locales/${lang}/translation.json"
+  }
+}

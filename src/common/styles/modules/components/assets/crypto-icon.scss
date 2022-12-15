@@ -1,0 +1,15 @@
+.crypto-icon {
+  @include FlexCenter;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  background: $gray-1;
+
+  &.btcLogo {
+    background: $btc;
+  }
+}
+
+.isExternalCryptoIcon {
+  opacity: 0.2;
+}

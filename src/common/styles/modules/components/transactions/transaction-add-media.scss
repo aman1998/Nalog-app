@@ -1,0 +1,31 @@
+@media screen and(max-width: $max-sm-media) {
+  .transaction-add {
+    &-item {
+      padding: 0;
+      margin-bottom: 24px;
+    }
+    &__btn {
+      margin: 0 0 16px 0;
+    }
+    &__modal {
+      .default-modal__content {
+        padding: 24px 16px;
+      }
+    }
+    &__note {
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+      &-text {
+        margin-left: 8px;
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+  }
+  .transactionAddItemActive {
+    background: $gray-1;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,233 @@
+.assets-single {
+  &-wrapper {
+    position: relative;
+    width: 100%;
+    background: $gray-1;
+    border-radius: 8px;
+    border: 1px solid $gray-4;
+  }
+
+  &__header {
+    &_wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 24px 63px 21px 24px;
+      background: $gray-3;
+      border-top-right-radius: 7px;
+      border-top-left-radius: 7px;
+    }
+
+    &_data {
+      margin-left: 16px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+
+      &_wrapper {
+        display: flex;
+        justify-items: center;
+        width: 100%;
+      }
+    }
+
+    &_icon {
+      & > img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    &_name {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      color: $gray-9;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    &_date {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: $gray-7;
+    }
+
+    &_asset_id {
+      margin-left: 8px;
+      color: $gray-9;
+    }
+
+    &_menu {
+      padding: 16px 0;
+      border-radius: 0 0 8px 8px;
+
+      &_delete {
+        margin-top: 24px;
+
+        & span {
+          color: $red-6;
+        }
+      }
+      & > li > span {
+        margin: 0 12px;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      & > li:hover {
+        color: $main;
+      }
+    }
+  }
+
+  &__sub_header {
+    &_wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 32px 8px 36px;
+
+      &.success {
+        background: #effbf4;
+      }
+
+      &.error {
+        background: #fff1f0;
+      }
+
+      &.info {
+        background: #f6ffed;
+      }
+    }
+
+    &_sync-status {
+      display: flex;
+      flex-direction: row;
+
+      &_icon {
+        margin-right: 12px;
+      }
+
+      &_title {
+        margin-top: -3px;
+        margin-bottom: 4px;
+        font-size: 14px;
+        line-height: 22px;
+        color: $gray-9;
+      }
+      &_date {
+        font-size: 12px;
+        line-height: 16px;
+        color: $gray-7;
+      }
+    }
+
+    &_sync-action {
+      text-align: center;
+      min-width: 94px;
+      //position: relative;
+      //margin-right: 36px;
+      //display: flex;
+      //flex-direction: column;
+      //align-items: center;
+
+      &_icon, &_icon svg {
+        width: 26px;
+        height: 26px;
+      }
+
+      &_icon {
+        position: relative;
+        text-align: center;
+        margin-bottom: 3.33px;
+        width: 100%;
+        .sync-loader {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+
+      &_text {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 10px;
+        text-transform: uppercase;
+        color: $gray-7;
+      }
+    }
+  }
+
+  &__content {
+    &_wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 24px 32px 48px 16px;
+    }
+  }
+
+  &__total-balance {
+    &_currency {
+      margin-bottom: 24px;
+    }
+    &_wrapper {
+      margin-top: 40px;
+    }
+
+    &_rub {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      & span:first-child {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: $gray-8;
+        margin-right: 12px;
+      }
+      & span:last-child {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: right;
+        color: $gray-9;
+      }
+    }
+    &_usd {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: right;
+      color: $gray-7;
+      margin-bottom: 24px;
+    }
+    &_transactions {
+      text-align: right;
+
+      a {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $main;
+        text-decoration: none;
+
+        &.underline {
+          text-decoration-line: underline;
+        }
+
+        &:hover {
+          color: $blue-2;
+          text-decoration-line: none;
+        }
+      }
+    }
+  }
+}
+
+
+

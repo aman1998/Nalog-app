@@ -1,0 +1,85 @@
+.transaction-manualP2P__form {
+  .field-wrapper {
+    margin-top: 0;
+    width: 170px;
+    input {
+      margin-top: 0;
+    }
+  }
+  &-fio--field-wrapper {
+    width: 100% !important;
+  }
+  &-date {
+    margin-top: 0;
+  }
+  &-arrow-icon-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 274px;
+    svg {
+      margin: 17px 28px 8px 0;
+    }
+  }
+  &-fio-wrapper, &-drop-wrapper, &-date-wrapper {
+    margin-bottom: 24px;
+  }
+  &-sum-wrapper {
+    display: flex;
+    align-items: center;
+    &--get {
+      margin-bottom: 24px;
+    }
+    .ant-select-selection-item {
+      height: 85px;
+    }
+  }
+  &-btn {
+    width: 100%;
+    height: 40px;
+  }
+  &-sum {
+    width: 172px;
+    border: 1px solid $gray-5;
+  }
+
+  &-text-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    svg {
+      margin-left: 4px;
+      width: 14px;
+      height: 14px;
+      path {
+        fill: $main;
+      }
+    }
+  }
+  &-text {
+    color: $gray-9;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and(max-width: $max-sm-media) {
+  .transaction-manualP2P__form {
+    .field-wrapper {
+      max-width: 193px;
+      width: 100%;
+      input {
+        width: 100%;
+      }
+    }
+    &-fio--field-wrapper {
+      max-width: 100% !important;
+      width: 100% !important;
+    }
+    &-arrow-icon-wrapper {
+      display: none;
+    }
+    &-sum-wrapper {
+      margin-bottom: 24px;
+    }
+  }
+}

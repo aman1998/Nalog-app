@@ -1,0 +1,36 @@
+.default-input {
+  font-size: 16px;
+  margin-top: 8px;
+  height: 40px;
+
+  .ant-input-password-icon {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+.error-input {
+  box-shadow: none !important;
+  border-color: $red-5 !important;
+}
+
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+  &:not(:first-child) {
+    margin-top: 16px;
+  }
+  &-label {
+    display: flex;
+  }
+  &-info {
+    width: 14px;
+    height: 14px;
+    margin-left: 4px;
+  }
+  label {
+    font-size: 14px;
+    line-height: 18px;
+    color: $gray-9;
+  }
+}

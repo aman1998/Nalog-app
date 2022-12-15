@@ -1,0 +1,52 @@
+.simple-submit-modal {
+  &__wrapper {
+    padding: 32px 32px 24px 32px;
+  }
+  &__title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: $gray-9;
+  }
+  &__body {
+    width: 100%;
+
+    & .name_note {
+      textarea {
+        height: 112px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $gray-9;
+      }
+    }
+  }
+  &__footer {
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-end;
+
+    & button:first-child {
+      margin-right: 8px;
+    }
+  }
+}
+
+@media screen and (max-width: $max-xs-media) {
+  .simple-submit-modal {
+    &__wrapper {
+      padding: 24px;
+    }
+    &__title {
+      line-height: 24px;
+    }
+    &__body {
+      & .name_note {
+        textarea {
+          height: 96px;
+        }
+      }
+    }
+  }
+}

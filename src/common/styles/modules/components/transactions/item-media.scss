@@ -1,0 +1,306 @@
+@media screen and(max-width: $max-lg-media) {
+  .transactionsItemNeedDetails, .reportTransactionsItemNeedDetails {
+    border: 1px solid $gray-5;
+    border-top: none !important;
+  }
+  .transactions-item {
+    position: relative;
+    margin-bottom: 0;
+    &__main {
+      padding: 15px 60px 20px 40px;
+      border-top: none;
+    }
+    &__additional-info {
+      &__btns {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        right: 40px;
+        top: -12px;
+        z-index: 2;
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+        & > div {
+          cursor: pointer;
+        }
+        &__note {
+          margin-left: 8px;
+        }
+      }
+    }
+    &:first-child {
+      .transactions-item__main {
+        border-radius: 0;
+        border-top: none;
+      }
+    }
+    &:last-child {
+      .transactions-item__main {
+        border-radius: 0;
+      }
+    }
+    &:only-child {
+      .transactions-item__main {
+        border-radius: 0;
+      }
+    }
+    &-left {
+      width: 33%;
+    }
+    &-right {
+      display: none;
+    }
+    &-center {
+      width: 67%;
+      min-width: 440px;
+      &__operation {
+        width: 50%;
+        min-width: 210px;
+      }
+      &__arrow {
+        display: none;
+      }
+    }
+    &-vector {
+      display: none;
+    }
+  }
+}
+
+@media screen and(max-width: $max-sm-media) {
+  .transactions-item {
+    border: 1px solid $gray-4;
+    border-top: none;
+    margin-bottom: 8px;
+    &__main {
+      flex-direction: column;
+      height: auto;
+      padding: 0;
+    }
+    &__additional-info {
+      &__btns {
+        right: 56px;
+        top: 12px;
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+        circle {
+          fill: $main
+        }
+        path {
+          fill: $gray-1
+        }
+        &__tag {
+          background: $main;
+          width: 20px;
+          height: 20px;
+          span {
+            color: $gray-4;
+          }
+        }
+      }
+    }
+    &-left {
+      width: 100%;
+      height: 44px;
+      margin-right: 0;
+      padding: 0 15px;
+      box-shadow: 0 1.5px 2px rgba(0, 0, 0, 0.06);
+      background: $gray-2;
+      z-index: 2;
+      &__icon {
+        width: 24px;
+        height: 24px;
+        svg {
+          margin: auto;
+          width: 24px;
+          height: 24px;
+        }
+      }
+      .needDetailsIcon {
+        svg {
+          margin-left: 8px;
+          height: 22px;
+        }
+      }
+      &__info {
+        display: flex;
+        flex-direction: column;
+        //justify-content: space-between;
+        //align-items: center;
+        margin-left: 18px;
+        width: 100%;
+        &-date-wrapper {
+          display: flex;
+          align-items: center;
+          .transactions-item__checkbox {
+            margin-left: 8px;
+            width: auto;
+            height: auto;
+          }
+        }
+        &-name {
+          font-size: 14px;
+          line-height: 18px;
+          margin-bottom: 0;
+        }
+        &-date {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+    }
+    .isWithdrawal {
+      background: $withdrawal;
+    }
+    .isDeposit {
+      background: $deposit;
+    }
+    .isExchange {
+      background: $exchange;
+    }
+    .isTransfer {
+      background: $transfer;
+    }
+    &-center {
+      padding: 4px 4px 4px 8px;
+      width: 100%;
+      min-width: 0;
+      &.marginTrading {
+        padding: 0 4px 4px 8px !important;
+      }
+      .externalOperation {
+        padding: 10px 8px 6px 8px;
+        .transactions-item-center__operation__content__left {
+          margin-top: 0;
+        }
+        .transactions-item-center__operation__header {
+          margin-bottom: 4px;
+        }
+        .transactions-item-center__operation__title {
+          font-size: 12px;
+          line-height: 14px;
+        }
+        .transactions-item-center__operation__msg {
+          margin-top: 6px;
+        }
+      }
+
+      &__operation {
+        @include ScrollWithoutLine;
+        padding: 12px 4px 4px 8px;
+        min-width: 0;
+        &:first-child {
+          display: inline-block;
+          float: left;
+        }
+        &:not(:first-child) {
+          display: block;
+          margin: 0 auto;
+        }
+        &__content {
+          flex-direction: column;
+          &__left {
+            margin-top: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+        }
+        &__header {
+          height: 14px;
+          margin-bottom: 4px;
+        }
+        &__title {
+          font-size: 12px;
+          line-height: 14px;
+        }
+        &__msg {
+          margin-top: 6px;
+          margin-left: 0;
+          div {
+            font-size: 12px;
+            line-height: 14px;
+            height: 14px;
+          }
+        }
+        &__logo {
+          margin-right: 7px;
+          height: 24px;
+          width: 24px;
+        }
+        &__name {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          font-size: 14px;
+          line-height: 22px;
+          color: $gray-9;
+        }
+        &.marginTrading {
+          border: none;
+          padding: 0 0 0 4px;
+          display: inline-block;
+        }
+      }
+      &__arrow {
+        display: none;
+      }
+      &__margin-trading {
+        &__symbol {
+          border-radius: 0 0 4px 4px;
+        }
+        &__position {
+          margin-bottom: 5px;
+        }
+        &__content {
+          padding: 5px 0 6px 5px;
+        }
+      }
+      &__margin-trading-opened {
+        &__content {
+          margin-top: 13px;
+          position: relative;
+          top: 0;
+          transform: none;
+        }
+        &__title {
+          padding: 6px 16px 0 0;
+          font-size: 12px;
+          line-height: 14px;
+          text-align: right;
+        }
+        &__text {
+          font-size: 14px;
+          line-height: 22px;
+          margin-bottom: 5px
+        }
+        &__asset {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+
+  .transactionsItemWidthCheckbox {
+    .transactions-item-left, .transactions-item-center {
+      background: $gray-light;
+    }
+  }
+
+  .transactionsChecked {
+    .transactions-item-left, .transactions-item-center {
+      background: rgba(63, 134, 226, 0.1);
+    }
+  }
+
+  .reportTransactionsItemNeedDetails {
+    .transactions-item-left, .transactions-item-center{
+      background: $red-1;
+    }
+  }
+}

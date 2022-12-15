@@ -1,0 +1,9 @@
+.dn-date-picker {
+  height: 40px;
+  margin-top: 8px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

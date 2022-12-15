@@ -1,0 +1,64 @@
+.dropdown-selector {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  &__dropdown {
+    .ant-dropdown-menu-item {
+      padding: 5px 12px;
+    }
+    .selected {
+      font-weight: 500;
+      background-color: $gray-2;
+    }
+
+  }
+  &__content {
+    @include Transition;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding: 9px 15px 9px 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: $gray-9;
+    background: $gray-1;
+    border: 1px solid $gray-5;
+    border-radius: 2px;
+    .arrow {
+      margin-left: auto;
+      fill: $main;
+      width: 10px;
+      height: 10px;
+      transform: rotate(-90deg);
+    }
+    &:not(.disable):hover {
+      background: $gray-light;
+      .arrow {
+        fill: $blue-2;
+      }
+      .flag {
+        border-color: $blue-2;
+      }
+    }
+    &.disabled {
+      cursor: not-allowed;
+      color: $gray-6;
+      background: $gray-light;
+      filter: drop-shadow(-8px 15px 20px rgba(88, 92, 98, 0.04));
+      pointer-events: none;
+    }
+  }
+  &__icon {
+    width: 20px;
+    height: 20px;
+    svg, img {
+      width: 20px;
+      height: 20px;
+    }
+    margin-right: 8px;
+
+  }
+}

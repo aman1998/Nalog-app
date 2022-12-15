@@ -1,0 +1,9 @@
+html {
+  --antd-wave-shadow-color: $main;
+  --scroll-bar: 0;
+}
+
+::selection {
+  color: $gray-1;
+  background: $main;
+}

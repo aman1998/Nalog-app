@@ -1,0 +1,29 @@
+.search-wrapper {
+  display: flex;
+  height: 40px;
+
+  .search-input {
+    padding: 10px;
+    border: 1px solid $gray-4;
+    border-right: none;
+    &:hover,
+    &:focus {
+      outline: none;
+    }
+  }
+  div {
+    @include FlexCenter;
+    width: 40px;
+    flex: 0 0 auto;
+    height: 100%;
+    border: 1px solid $gray-4;
+    background: $gray-1;
+    border-radius: 0 4px 4px 0;
+    svg {
+      fill: $gray-8 !important;
+      width: 18px;
+      height: 18px;
+      //background: #626368;
+    }
+  }
+}

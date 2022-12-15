@@ -1,0 +1,50 @@
+
+.drawer {
+  .ant-drawer-body {
+    padding: 0;
+    background: $gray-3;
+  }
+  &-header {
+    position: relative;
+    height: 56px;
+    background: $gray-1;
+  }
+  &-closeIcon {
+    @include FlexCenter;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    :hover {
+      path {
+        fill: $gray-8;
+      }
+    }
+  }
+  &-title {
+    @include FlexCenter;
+    height: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $gray-9;
+  }
+  &-filter {
+    padding: 24px;
+    &__btn-wrapper {
+      position: absolute;
+      padding: 0 24px;
+      bottom: 16px;
+      width: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &__btn {
+      height: 40px;
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+}

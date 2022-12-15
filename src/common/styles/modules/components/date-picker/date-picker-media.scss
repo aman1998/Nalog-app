@@ -1,0 +1,19 @@
+@media screen and(max-width: $sm-media) {
+  .ant-picker-dropdown {
+    padding: 0 24px;
+    width: 100%;
+  }
+  .ant-picker-range-arrow {
+    display: none !important;
+  }
+  .ant-picker-panels {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .ant-picker-panel-container,
+  .ant-picker-date-panel,
+  .ant-picker-content {
+    width: 100% !important;
+  }
+}

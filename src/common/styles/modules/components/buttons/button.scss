@@ -1,0 +1,148 @@
+.default-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 16px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: none;
+
+  svg {
+    margin-right: 10px;
+  }
+
+  &::before {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    z-index: 1;
+    display: none;
+    background: #fff;
+    border-radius: inherit;
+    opacity: 0.35;
+    transition: opacity 0.2s;
+    content: "";
+    pointer-events: none;
+  }
+
+  &.transparent {
+    color: rgba(0, 0, 0, 0.85);
+    background: $gray-1;
+    border: 1px solid $gray-5;
+    transition: all 0.3s;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.85);
+      background-color: $gray-2;
+      border-color: $gray-4;
+    }
+
+    &:disabled {
+      background: #f3f4f9;
+      border: 1px solid #d7d8e0;
+      color: $gray-6;
+    }
+  }
+  &.lettuce {
+    @include Transition;
+    background: $lettuce;
+    color: $gray-8;
+    svg {
+      width: 16px;
+      height: 16px;
+      path {
+        fill: $gray-8;
+      }
+    }
+    &:hover {
+      color: $gray-8;
+      background: $lettuce;
+      opacity: .8;
+    }
+    &:focus {
+      color: $gray-8;
+      background: $lettuce;
+      opacity: .8;
+    }
+    &:disabled {
+      &:hover {
+        background: $gray-2;
+      }
+    }
+  }
+  &.pink {
+    @include Transition;
+    color: $gray-1;
+    background: $pink;
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+    &:hover {
+      color: $gray-1;
+      background: $pink;
+      opacity: .8;
+    }
+    &:focus {
+      color: $gray-1;
+      background: $pink;
+      opacity: .8;
+    }
+    &:disabled {
+      &:hover {
+        background: $gray-2;
+      }
+    }
+  }
+
+  &:disabled {
+    border: 1px solid $gray-5;
+    background: $gray-2;
+    color: $gray-6;
+    svg {
+      fill: $gray-6;
+      path {
+        fill: $gray-6;
+      }
+    }
+  }
+}
+
+.widthIconButton {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-right: 10px;
+    path {
+      fill: $gray-1;
+    }
+  }
+}
+
+
+.btn-filter {
+  border-radius: 4px;
+  border: none;
+  color: $gray-1;
+  cursor: pointer;
+}
+
+._isActiveFilter {
+  background: $main;
+  color: $gray-1;
+}
+
+._isPassiveFilter {
+  background: $gray-4;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.btn-document {
+  width: 282px;
+  height: 40px;
+}

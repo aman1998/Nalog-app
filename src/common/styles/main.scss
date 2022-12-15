@@ -1,0 +1,100 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  .layout-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .main {
+    flex: 1 0 auto;
+    padding-top: 48px;
+    background: $gray-light;
+  }
+
+  .iWithoutMainPadding {
+    padding-top: 0 !important;
+  }
+
+}
+
+.container {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media screen and (max-width: $max-md-media) {
+  .container {
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: $max-sm-media) {
+  .container {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: $max-xs-media) {
+  .container {
+    padding: 0 8px;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: normal;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+@media screen and (max-width: $max-md-media) {
+  body {
+    .main {
+      padding-top: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: $max-sm-media) {
+  body {
+    -webkit-text-size-adjust: none;
+    .main {
+      background: inherit;
+      padding-bottom: 16px;
+
+      &.light-grey {
+        background: $gray-light;
+      }
+    }
+  }
+}

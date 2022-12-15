@@ -1,0 +1,111 @@
+.create-document__step-three {
+  &__wrapper {
+    padding-top: 24px;
+    background: $gray-light;
+  }
+  &__container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 690px;
+  }
+  &__header {
+    margin-bottom: 16px;
+    padding: 0 16px;
+    &-anonymous {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 4px;
+      &__title {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: $gray-9;
+      }
+    }
+    &-text {
+      max-width: 90%;
+      font-size: 14px;
+      line-height: 16px;
+      color: $gray-8;
+    }
+  }
+  &__form {
+    padding: 40px 62px;
+    background: $gray-1;
+    border: 1px solid $gray-5;
+    border-radius: 8px;
+    .field-wrapper {
+      max-width: 356px;
+      width: 100%;
+      &:not(:first-child) {
+        margin-top: 24px;
+      }
+    }
+    &-btn {
+      margin-top: 40px;
+      height: 40px;
+    }
+    &-line {
+      margin: 0 -62px;
+      height: 1px;
+      background: $gray-5;
+    }
+    &-flex {
+      display: flex;
+    }
+
+    .ifns-wrapper-class {
+      max-width: 177px;
+    }
+    .oktmo-wrapper-class {
+      margin-top: 0 !important;
+      margin-left: 24px;
+      max-width: 278px;
+    }
+    .phone-wrapper-class {
+      margin-top: 0 !important;
+      margin-left: 16px;
+      max-width: 238px;
+    }
+    .date-wrapper-class {
+      max-width: 105px;
+    }
+    .inn-wrapper-class {
+      margin-top: 16px !important;
+    }
+    .passport_series-wrapper-class {
+      max-width: 170px;
+    }
+    .passport_number-wrapper-class {
+      margin-top: 0 !important;
+      margin-left: 24px;
+      max-width: 170px;
+    }
+
+    &--date-phone {
+      margin-top: 24px;
+      margin-bottom: 37px;
+    }
+
+    &-title {
+      margin: 24px 0 16px -22px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: $gray-9;
+    }
+    &-text {
+      margin-top: 8px;
+      margin-bottom: 16px;
+      max-width: 474px;
+      font-size: 14px;
+      line-height: 22px;
+      color: $gray-8;
+      span {
+        color: $main;
+        border-bottom: 1px solid $main;
+      }
+    }
+  }
+}

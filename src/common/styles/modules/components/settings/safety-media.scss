@@ -1,0 +1,42 @@
+@media screen and(max-width: $sm-media) {
+  .settings-safety {
+    background: $gray-light;
+    &_title {
+      display: none;
+    }
+    &_item {
+      .auth-item_content {
+        margin-left: 16px;
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .item-btn {
+      margin-left: 16px;
+    }
+    .item_text {
+      margin-left: 16px;
+      &.danger {
+        font-size: 14px;
+      }
+    }
+    .item-link {
+      &.email {
+        margin-left: 16px;
+      }
+    }
+  }
+}
+
+
+@media screen and(max-width: $more-xs-media) {
+  .settings-safety {
+    .item-link {
+      &.email {
+        display: block;
+        margin-left: 0;
+      }
+    }
+  }
+}

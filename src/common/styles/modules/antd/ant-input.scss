@@ -1,0 +1,19 @@
+.ant-input:focus, .ant-input-focused {
+  border-color: $main;
+  box-shadow: 0 0 0 2px rgba(153,	172,	242, .2);
+}
+.ant-input-affix-wrapper:focus, .ant-input-affix-wrapper-focused {
+  border-color: $main;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(153,	172,	242, .2);
+}
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: $main;
+  border-right-width: 1px !important;
+  z-index: 1;
+}
+.ant-input:hover {
+  border-color: $main;
+  border-right-width: 1px !important;
+}

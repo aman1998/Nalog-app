@@ -1,0 +1,28 @@
+@media screen and (max-width: $max-md-media) {
+  .footer {
+    //margin-top: 24px;
+    &-navigation {
+      ul {
+        flex-direction: column;
+        li {
+          margin-right: 0;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $max-sm-media) {
+  .footer-wrapper {
+    background: $gray-1;
+  }
+  .footer {
+    padding: 15px;
+    height: auto;
+    flex-direction: column;
+    &-navigation {
+      margin: 10px 0;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@media screen and(min-width: $x-media) {
+  .stickyTop {
+    @include Transition;
+    top: 80px;
+  }
+  .transactionsHeaderScrolled {
+    .transactions-title__wrapper {
+      height: 0;
+      margin: 0;
+      opacity: 0;
+    }
+  }
+}
+
+@media screen and(max-width: $max-md-media) {
+  .transactions-header {
+    &__content {
+      padding: 40px 15px 18px 15px;
+    }
+    .transactions-title__wrapper {
+      margin: 0;
+      h1 {
+        font-size: 24px;
+        line-height: 32px;
+      }
+      span {
+        @include FlexCenter;
+        height: 24px;
+      }
+    }
+  }
+}

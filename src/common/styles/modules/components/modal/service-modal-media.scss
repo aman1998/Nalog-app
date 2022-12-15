@@ -1,0 +1,7 @@
+@media screen and(max-width: $max-xs-media) {
+  .service-modal {
+    &_content {
+      padding: 24px 8px 32px 8px;
+    }
+  }
+}

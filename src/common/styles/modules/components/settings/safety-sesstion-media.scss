@@ -1,0 +1,8 @@
+@media screen and(max-width: $sm-media) {
+  .session-item {
+    &_list {
+      margin-bottom: 16px;
+      margin-left: 16px;
+    }
+  }
+}

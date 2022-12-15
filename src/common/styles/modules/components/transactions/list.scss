@@ -1,0 +1,131 @@
+.transactions-list {
+  height: 100%;
+  &.container {
+    padding: 0 15px;
+  }
+
+  &__add-btn {
+    width: 214px;
+    height: 40px;
+  }
+
+  &__title {
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin: 48px 0 32px 0;
+    }
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: $gray-9;
+  }
+
+  &__item-wrapper {
+    background: $gray-light;
+  }
+
+  &__preloader {
+    @include FlexCenter;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+
+    &-title {
+      text-align: center;
+      margin-bottom: 24px;
+      max-width: 545px;
+      font-size: 16px;
+      line-height: 24px;
+      color: $gray-9;
+    }
+
+    &-btn {
+      margin-bottom: 40px;
+      height: 40px;
+      width: 214px;
+    }
+
+    &-text {
+      text-align: center;
+      max-width: 559px;
+      font-size: 16px;
+      line-height: 24px;
+      color: $gray-9;
+    }
+
+    &-link, &-link:hover {
+      color: $main;
+      border-bottom: 1px solid $main;
+    }
+  }
+
+  &__show-more {
+    &__wrapper {
+      margin-top: 16px;
+      width: 100%;
+    }
+
+    padding: 20px 0;
+    width: 100%;
+    background: $gray-2;
+    border: 1px solid $gray-5;
+    border-radius: 2px 2px 16px 16px;
+    color: $main;
+
+    &:hover {
+      color: $main;
+      background: $gray-3;
+      border: 1px solid $gray-3;
+    }
+
+    &:focus {
+      color: $main;
+      background: $gray-3;
+      border: 1px solid $gray-3;
+    }
+
+    &-skeleton {
+      height: 42px !important;
+      width: 100% !important;
+
+      border: 0.5px solid $gray-5;
+      border-radius: 2px 2px 16px 16px !important;
+    }
+  }
+
+  &__skeleton {
+    width: 100%;
+    margin: 16px 0 32px 0;
+
+    &__title > span {
+      width: 140px !important;
+      margin: 32px 0;
+    }
+
+    &__items > div:first-child > span{
+      border-radius: 24px 0 0 0;
+    }
+
+    &__items > div:last-child > span {
+      border-radius: 0 0 0 24px;
+      margin-bottom: 0;
+    }
+
+    &__item {
+      margin-bottom: 8px;
+      height: 114px !important;
+      width: 100% !important;
+    }
+  }
+}

@@ -1,0 +1,246 @@
+@import "variables";
+@import "normalize";
+@import "themeHandler";
+@import "main";
+@import "mixins";
+@import "validate";
+@import "animations";
+
+// antd custom styles
+@import "modules/antd/ant";
+@import "modules/antd/ant-input";
+@import "modules/antd/ant-picker";
+@import "modules/antd/ant-checkbox";
+@import "modules/antd/ant-btn";
+@import "modules/antd/ant-tabs";
+@import "modules/antd/ant-radio";
+@import "modules/antd/ant-switch";
+@import "modules/antd/ant-select";
+
+// flag
+@import "modules/components/flag/flag";
+
+// Buttons
+@import "modules/components/buttons/button";
+
+// bn-radio
+@import "modules/components/radio/radio";
+
+// bn
+@import "modules/components/bn-switch/bn-switch";
+@import "modules/components/bn-select/bn-select";
+@import "modules/components/bn-tooltip/bn-tooltip";
+@import "modules/components/bn-drop-operation-type-input/bn-drop-operation-type-input";
+
+// tags multiplier
+@import "modules/components/tags-multiplier/tags-multiplier";
+
+// note
+@import "modules/components/note/note";
+
+// dropdown-selector
+@import "modules/components/dropdown-selector/dropdown-selector";
+
+// StepWidget
+@import "modules/components/step-widget/step-widget";
+
+// Segments
+@import "segments/header";
+@import "segments/footer";
+@import "segments/other-nav";
+@import "segments/drawer";
+@import "segments/header-media";
+@import "segments/footer-media";
+
+// Assets
+@import "modules/components/assets/crypto-assets-list";
+@import "modules/components/assets/crypto-item";
+@import "modules/components/assets/crypto-icon";
+@import "modules/components/assets/assets-single-skeleton";
+@import "modules/components/assets/assets-note";
+@import "modules/components/assets/assets-note-media";
+@import "modules/components/assets/assets";
+@import "modules/components/assets/assets-media";
+@import "modules/components/assets/assets-single";
+@import "modules/components/assets/assets-single-media";
+
+// Not Found
+@import "modules/components/notFound/notFound";
+
+// Inputs
+@import "modules/components/inputs/search-input";
+@import "modules/components/inputs/default-input";
+
+// Switcher
+@import "modules/components/switcher/switcher";
+
+// Selects
+@import "modules/components/selects/select";
+// Prompt
+@import "modules/components/prompt/prompt";
+
+// Joyride
+@import "modules/components/joyride/joyride-tooltip";
+
+// pop-up
+@import "modules/components/pop-up/pop-up";
+
+// Date-picker
+@import "modules/components/date-picker/date-picker";
+@import "modules/components/date-picker/date-picker-media";
+@import "modules/components/date-picker/dn-date-picker";
+
+// tooltip
+@import "modules/components/tooltip/tooltip";
+@import "modules/components/tooltip/tooltip-media";
+
+// process-info
+@import "modules/components/progress-info/progress-info";
+
+// Modal
+@import "modules/components/modal/modal";
+@import "modules/components/modal/form-modal";
+@import "modules/components/modal/header-modal";
+@import "modules/components/modal/modal-media";
+@import "modules/components/modal/header-modal-media";
+@import "modules/components/modal/assets-delete-modal";
+@import "modules/components/modal/asset-rename-modal";
+@import "modules/components/modal/asset-edit-connect-modal";
+@import "modules/components/modal/closed-testing-modal";
+@import "modules/components/modal/create-report-modal";
+@import "modules/components/modal/create-report-modal-mobile";
+@import "modules/components/modal/report-delete-modal";
+@import "modules/components/modal/confirm-modal";
+@import "modules/components/modal/confirm-modal-media";
+@import "modules/components/modal/service-modal";
+@import "modules/components/modal/service-modal-media";
+@import "modules/components/modal/simple-submit-modal";
+@import "modules/components/modal/transaction-edit-tag-modal";
+
+// Auth
+@import "modules/components/auth/auth";
+@import "modules/components/auth/auth-media";
+@import "modules/components/auth/auth-carousel";
+@import "modules/components/auth/auth-form";
+@import "modules/components/auth/auth-form-media";
+@import "modules/components/auth/validate-text";
+@import "modules/components/auth/phone-check";
+@import "modules/components/auth/phone-check-media";
+@import "modules/components/auth/forgot";
+@import "modules/components/auth/confirm-code";
+@import "modules/components/auth/confirm-code-media";
+
+// Settings
+@import "modules/components/settings/settings";
+@import "modules/components/settings/sidebar";
+@import "modules/components/settings/main";
+@import "modules/components/settings/safety";
+@import "modules/components/settings/safety-password-form";
+@import "modules/components/settings/safety-session";
+@import "modules/components/settings/bind-modal";
+@import "modules/components/settings/bind-modal-media";
+@import "modules/components/settings/settings-media";
+@import "modules/components/settings/safety-media";
+@import "modules/components/settings/safety-password-media";
+@import "modules/components/settings/safety-sesstion-media";
+@import "modules/components/settings/settings-services";
+@import "modules/components/settings/settings-main";
+@import "modules/components/settings/settings-main-media";
+@import "modules/components/settings/settings-plan-and-payment";
+
+// Drawer
+@import "modules/components/drawer/drawer";
+
+// Transactions
+@import "modules/components/transactions";
+@import "modules/components/transactions/header";
+@import "modules/components/transactions/filter";
+@import "modules/components/transactions/list";
+@import "modules/components/transactions/list-media";
+@import "modules/components/transactions/item";
+@import "modules/components/transactions/header-mobile";
+@import "modules/components/transactions/filter-media";
+@import "modules/components/transactions/header-media";
+@import "modules/components/transactions/item-media";
+@import "modules/components/transactions/list-item";
+@import "modules/components/transactions/transaction-edit-currency";
+@import "modules/components/transactions/transactions-edit";
+@import "modules/components/transactions/transaction-edit-media";
+@import "modules/components/transactions/transaction-add";
+@import "modules/components/transactions/transaction-add-media";
+@import "modules/components/transactions/transaction-manualP2P-form";
+
+// Constructor
+@import 'modules/components/document-constructor/emptyList';
+
+// Steps
+@import 'modules/components/document-constructor/steps/step-one';
+@import 'modules/components/document-constructor/steps/step-one-media';
+@import 'modules/components/document-constructor/steps/step-two';
+@import 'modules/components/document-constructor/steps/step-two-media';
+@import 'modules/components/document-constructor/steps/step-three';
+@import 'modules/components/document-constructor/steps/step-three-media';
+
+// Documents
+@import "modules/components/document/documents";
+@import "modules/components/document/documents-media";
+@import "modules/components/document/document-create-modal";
+
+// Dashboard
+@import "modules/components/dashboard/dashboard";
+@import "modules/components/dashboard/dashboard-welcom-modal";
+@import "modules/components/dashboard/dashboard-card";
+@import "modules/components/dashboard/dashboard-assets";
+@import "modules/components/dashboard/dashboard-taxes";
+@import "modules/components/dashboard/dashboard-diagram";
+@import "modules/components/dashboard/dashboard-transactions";
+@import "modules/components/dashboard/dashboard-prompt";
+@import "modules/components/dashboard/dashboard-symbols";
+@import "modules/components/dashboard/dashboard-risk-score";
+@import "modules/components/dashboard/dashboard-your-accounts";
+@import "modules/components/dashboard/dashboard-assets-value";
+@import "modules/components/dashboard/dashboard-p2p=exchange";
+
+// Breadcrumb
+@import "modules/components/breadcrumb/breadcrumb";
+
+// Icon
+@import "modules/components/icon/sync-loader";
+
+//Title
+@import "modules/components/title/title";
+
+//Report
+@import "modules/components/report/report";
+@import "modules/components/report/report-single-page";
+@import 'modules/components/report/report-card';
+@import 'modules/components/report/report-card-media';
+@import 'modules/components/report/old-report-card';
+@import "modules/components/report/report-formed";
+@import "modules/components/report/report-formed-media";
+
+// Report operations
+@import "modules/components/report-operations/report-operations";
+
+// Info Block
+@import "modules/components/info-block/info-block";
+@import "modules/components/info-block/info-block-media";
+
+// Remaining days
+@import "modules/components/remaining-days/remaining-days";
+@import "modules/components/remaining-days/remaining-days-media";
+
+// Drop file
+@import "modules/components/drop-file/drop-file";
+
+// Default Spinner
+@import "modules/components/spinner/spinner";
+
+// Pagination
+@import "modules/components/pagination/pagination";
+
+// Upload Operations
+@import "modules/components/upload-operations/upload-operations";
+
+// pricing
+@import "modules/components/pricing/pricing";

@@ -1,0 +1,8 @@
+@media screen and (max-width: $sm-media) {
+  .confirm-code {
+    &__input {
+      margin-bottom: 24px;
+      width: 100%;
+    }
+  }
+}

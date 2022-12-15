@@ -1,0 +1,110 @@
+.bn-drop-operation-type-input {
+  &__wrapper {
+    margin-bottom: 16px;
+    padding: 8px 8px 8px 16px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(214, 70, 134, 0.05);
+    border: 1px dashed $pink;
+    border-radius: 24px;
+    &.disabled {
+      border: 1px dashed #D7D8E0;
+      background: none;
+    }
+    &.file-exists {
+      border: 1px dashed $gray-5;
+      background: none;
+    }
+    input {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  }
+  &__upload {
+    margin-left: 24px;
+    border-radius: 50px;
+    &:disabled {
+      border: 1px solid $gray-2;
+    }
+  }
+  &__type {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: $gray-7;
+  }
+  &__description {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: $gray-6;
+    margin-top: 2px;
+  }
+}
+
+
+.bn-drop-operation-type-input:hover,
+.bn-drop-operation-type-input.dragover {
+  opacity: 0.6;
+}
+
+.bn-drop-operation-type-input__preview {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  &__info {
+    margin-right: 4px;
+    @include Ellipsis;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    p {
+      cursor: pointer;
+      color: $main;
+      font-size: 14px;
+      line-height: 16px;
+      text-decoration-line: underline;
+    }
+    a {
+      margin: 0 4px 0 0;
+      width: 16px;
+      height: 16px;
+    }
+    svg {
+      width: 100%;
+      height:100%;
+    }
+    svg path {
+      fill: $main;
+    }
+  }
+  &__del {
+    @include FlexCenter;
+    width: 16px;
+    height: 16px;
+    background: $gray-5;
+    cursor: pointer;
+    border-radius: 50%;
+    &:hover {
+      opacity: 0.8;
+    }
+    svg {
+      width: 6px;
+      height: 6px;
+      path {
+        fill: $gray-1;
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+@media screen and(max-width: $max-lg-media) {
+  .report-formed {
+    padding-top: 24px;
+    //background: $gray-light;
+    &__content {
+      flex-direction: column-reverse;
+    }
+    .report-download {
+      width: 100%;
+    }
+    .report-calculations {
+      margin-left: 0;
+      margin-top: 24px;
+      &__operations {
+        order: 2;
+        margin-bottom: 0;
+      }
+      &__title {
+        margin: 30px 0 20px 0;
+      }
+      &__item-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+      }
+      &__item {
+        width: auto;
+        &--tax_base, &--tax_amount {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+};
+
+@media screen and(max-width: $max-sm-media) {
+  .report-formed {
+    &__header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    &__actions {
+      margin-top: 24px;
+    }
+    &__title {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &__date {
+      margin-left: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      line-height: 16px;
+    }
+    &__btn {
+      margin: 24px 0 14px 0;
+      width: 100%;
+    }
+    .report-calculations {
+      margin-top: 16px;
+      &__operations {
+        margin-top: 16px;
+        margin-bottom: 0;
+        order: 2
+      }
+      &__remaining-day {
+        font-size: 16px;
+        line-height: 22px;
+      }
+      &__text {
+        order: 1;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 18px;
+        color: $gray-8;
+        &--second {
+          display: none;
+        }
+      }
+      &__title {
+        margin: 28px 0 18px 0;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+      }
+      &__item-wrapper {
+        flex-wrap: wrap;
+      }
+      &__item {
+        width: 50%;
+        &--tax_base, &--tax_amount {
+          margin-top: 16px;
+        }
+        &-header {
+          &-title {
+            font-size: 14px;
+            line-height: 16px;
+          }
+        }
+      }
+    }
+    .report-download {
+      margin-bottom: 16px;
+      padding: 16px;
+      background: $gray-2;
+      &__title {
+        margin-bottom: 16px;
+        font-size: 16px;
+        line-height: 18px;
+      }
+      &__item {
+        margin-bottom: 8px;
+        &-name {
+          margin: 0 4px 0 14px;
+          font-size: 14px;
+          line-height: 20px;
+        }
+        &-download {
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}
+

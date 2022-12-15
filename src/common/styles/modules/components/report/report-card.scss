@@ -1,0 +1,57 @@
+.report-card {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 20px 24px 24px;
+  width: 588px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  &:last-child {
+    margin-bottom: 5px;
+  }
+
+  &:hover {
+    background: $gray-2;
+  }
+  &__date {
+    font-size: 16px;
+    line-height: 22px;
+    color: $gray-8;
+  }
+  &__title {
+    margin: 2px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  &__status {
+    font-size: 16px;
+    line-height: 22px;
+    &--error {
+      color: $red-6;
+    }
+    &--draft {
+      color: $main;
+    }
+    &--empty {
+      height: 22px;
+    }
+  }
+  &__arrow-wrapper {
+    @include FlexCenter;
+    width: 32px;
+    height: 32px;
+    svg {
+      width: 17px;
+      height: 27px;
+      transform: rotate(-180deg);
+      -webkit-transform: rotate(-180deg);
+      path {
+        fill: $gray-6;
+      }
+    }
+  }
+}
+

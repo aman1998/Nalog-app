@@ -1,0 +1,36 @@
+
+.dashboard-prompt {
+  width: 100%;
+  max-width: 792px;
+  &::before {
+    left: 147px;
+  }
+}
+
+.dashboard-prompt-text {
+  padding: 0 16px;
+  margin-left: 15px;
+  list-style-type: decimal;
+  font-size: 16px;
+  line-height: 18px;
+
+  li::marker {
+    font-weight: 500;
+  }
+
+  li:not(:first-child) {
+    margin-top: 24px;
+  }
+
+  &__head {
+    font-weight: 500;
+  }
+  &__text {
+    color: $gray-8;
+  }
+
+  & a {
+    color: $main;
+    text-decoration: underline;
+  }
+}

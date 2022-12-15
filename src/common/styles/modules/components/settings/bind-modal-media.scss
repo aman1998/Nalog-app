@@ -1,0 +1,10 @@
+@media screen and (max-width: $sm-media) {
+  .bind-modal {
+    &_content {
+      padding: 24px 16px 24px 16px;
+      //&-input-wrapper {
+      //  height: 90px;
+      //}
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: $max-sm-media) {
+  .header-modal {
+    &__title {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+  .bind-header-modal {
+    padding: 19px 4px;
+    &_title {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+}

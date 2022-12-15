@@ -1,0 +1,65 @@
+
+.joyride-tooltip {
+  background-color: $gray-1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: $gray-9;
+  font-size: 16px;
+  max-width: 100%;
+  padding: 40px 24px 24px 40px;
+  position: relative;
+  width: 380px;
+  &__data {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  &__title {
+    width: 100%;
+    padding: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+  &__content {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray-7;
+  }
+  &__footer {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+  &__size {
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: $gray-8;
+  }
+  &__next{
+    width: 92px;
+    margin-left: 16px;
+  }
+  &__back {
+    padding: 5px 8px;
+  }
+  &__close {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+    padding: 15px;
+    appearance: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width: $more-xs-media) {
+  .confirm-modal {
+    padding: 0;
+    &__wrapper {
+      padding: 16px 4px;
+    }
+  }
+}

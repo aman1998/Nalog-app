@@ -1,0 +1,23 @@
+.validate {
+  width: 100%;
+  color: $red-5;
+  font-size: 14px;
+  line-height: 22px;
+  transform: translateY(-70%);
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.validate-active {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+  transition: 0.5s;
+}
+
+._inputError {
+  box-shadow: none !important;
+  border-color: $red-5 !important;
+}
